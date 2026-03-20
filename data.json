@@ -1,5 +1,5 @@
 {
-  "timestamp": 1773993290911,
+  "timestamp": 1773993542605,
   "date": "2026-03-20",
   "categories": {
     "ai": {
@@ -54,7 +54,7 @@
           "name": "ultralytics",
           "description": "Ultralytics YOLO 🚀",
           "url": "https://github.com/ultralytics/ultralytics",
-          "stars": 54712,
+          "stars": 54713,
           "forks": 10525,
           "language": "Python"
         },
@@ -141,7 +141,7 @@
           "name": "system-design-primer",
           "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
           "url": "https://github.com/donnemartin/system-design-primer",
-          "stars": 339500,
+          "stars": 339501,
           "forks": 54948,
           "language": "Python"
         },
@@ -499,7 +499,7 @@
           "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
           "url": "https://github.com/PrefectHQ/prefect",
           "stars": 21907,
-          "forks": 2179,
+          "forks": 2180,
           "language": "Python"
         },
         {
@@ -515,16 +515,390 @@
       "trending": []
     },
     "security": {
-      "topStars": [],
+      "topStars": [
+        {
+          "owner": "caddyserver",
+          "name": "caddy",
+          "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+          "url": "https://github.com/caddyserver/caddy",
+          "stars": 70967,
+          "forks": 4684,
+          "language": "Go"
+        },
+        {
+          "owner": "projectdiscovery",
+          "name": "nuclei",
+          "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
+          "url": "https://github.com/projectdiscovery/nuclei",
+          "stars": 27548,
+          "forks": 3311,
+          "language": "Go"
+        },
+        {
+          "owner": "hwdsl2",
+          "name": "setup-ipsec-vpn",
+          "description": "Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco IPsec and IKEv2",
+          "url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+          "stars": 27500,
+          "forks": 6517,
+          "language": "Shell"
+        },
+        {
+          "owner": "authelia",
+          "name": "authelia",
+          "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™",
+          "url": "https://github.com/authelia/authelia",
+          "stars": 27267,
+          "forks": 1373,
+          "language": "Go"
+        },
+        {
+          "owner": "community-scripts",
+          "name": "ProxmoxVE",
+          "description": "Proxmox VE Helper-Scripts (Community Edition) ",
+          "url": "https://github.com/community-scripts/ProxmoxVE",
+          "stars": 27182,
+          "forks": 2548,
+          "language": "Shell"
+        },
+        {
+          "owner": "Infisical",
+          "name": "infisical",
+          "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+          "url": "https://github.com/Infisical/infisical",
+          "stars": 25468,
+          "forks": 1759,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "cilium",
+          "name": "cilium",
+          "description": "eBPF-based Networking, Security, and Observability",
+          "url": "https://github.com/cilium/cilium",
+          "stars": 23972,
+          "forks": 3669,
+          "language": "Go"
+        },
+        {
+          "owner": "radareorg",
+          "name": "radare2",
+          "description": "UNIX-like reverse engineering framework and command-line toolset",
+          "url": "https://github.com/radareorg/radare2",
+          "stars": 23268,
+          "forks": 3175,
+          "language": "C"
+        },
+        {
+          "owner": "matomo-org",
+          "name": "matomo",
+          "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+          "url": "https://github.com/matomo-org/matomo",
+          "stars": 21360,
+          "forks": 2816,
+          "language": "PHP"
+        },
+        {
+          "owner": "goauthentik",
+          "name": "authentik",
+          "description": "The authentication glue you need.",
+          "url": "https://github.com/goauthentik/authentik",
+          "stars": 20584,
+          "forks": 1517,
+          "language": "Python"
+        }
+      ],
       "trending": []
     },
     "game": {
-      "topStars": [],
-      "trending": []
+      "topStars": [
+        {
+          "owner": "Anuken",
+          "name": "Mindustry",
+          "description": "The automation tower defense RTS",
+          "url": "https://github.com/Anuken/Mindustry",
+          "stars": 26948,
+          "forks": 3374,
+          "language": "Java"
+        },
+        {
+          "owner": "lichess-org",
+          "name": "lila",
+          "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
+          "url": "https://github.com/lichess-org/lila",
+          "stars": 17935,
+          "forks": 2599,
+          "language": "Scala"
+        },
+        {
+          "owner": "kitao",
+          "name": "pyxel",
+          "description": "A retro game engine for Python",
+          "url": "https://github.com/kitao/pyxel",
+          "stars": 17260,
+          "forks": 914,
+          "language": "Rust"
+        },
+        {
+          "owner": "OpenRCT2",
+          "name": "OpenRCT2",
+          "description": "An open source re-implementation of RollerCoaster Tycoon 2 🎢",
+          "url": "https://github.com/OpenRCT2/OpenRCT2",
+          "stars": 15307,
+          "forks": 1748,
+          "language": "C++"
+        },
+        {
+          "owner": "CleverRaven",
+          "name": "Cataclysm-DDA",
+          "description": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA",
+          "stars": 12159,
+          "forks": 4456,
+          "language": "C++"
+        },
+        {
+          "owner": "flame-engine",
+          "name": "flame",
+          "description": "A Flutter based game engine.",
+          "url": "https://github.com/flame-engine/flame",
+          "stars": 10486,
+          "forks": 1019,
+          "language": "Dart"
+        },
+        {
+          "owner": "azerothcore",
+          "name": "azerothcore-wotlk",
+          "description": "Complete Open Source and Modular solution for MMO",
+          "url": "https://github.com/azerothcore/azerothcore-wotlk",
+          "stars": 8109,
+          "forks": 3246,
+          "language": "C++"
+        },
+        {
+          "owner": "wesnoth",
+          "name": "wesnoth",
+          "description": "An open source, turn-based strategy game with a high fantasy theme.",
+          "url": "https://github.com/wesnoth/wesnoth",
+          "stars": 6494,
+          "forks": 1171,
+          "language": "C++"
+        },
+        {
+          "owner": "Provenance-Emu",
+          "name": "Provenance",
+          "description": "iOS & tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… Get Started:  https://wiki.provenance-emu.com  | ",
+          "url": "https://github.com/Provenance-Emu/Provenance",
+          "stars": 6261,
+          "forks": 708,
+          "language": "C"
+        },
+        {
+          "owner": "NetHack",
+          "name": "NetHack",
+          "description": "Official NetHack Git Repository",
+          "url": "https://github.com/NetHack/NetHack",
+          "stars": 3513,
+          "forks": 544,
+          "language": "C"
+        }
+      ],
+      "trending": [
+        {
+          "owner": "TopStationFire",
+          "name": "R6-EXTERNAL-ASSIST-v1.0-",
+          "description": "Advanced external memory analysis and visualization tool for Rainbow Six Siege.",
+          "url": "https://github.com/TopStationFire/R6-EXTERNAL-ASSIST-v1.0-",
+          "stars": 52,
+          "forks": 0,
+          "language": "C++"
+        }
+      ]
     },
     "all": {
-      "topStars": [],
-      "trending": []
+      "topStars": [
+        {
+          "owner": "freeCodeCamp",
+          "name": "freeCodeCamp",
+          "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "stars": 438520,
+          "forks": 43710,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "donnemartin",
+          "name": "system-design-primer",
+          "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "stars": 339501,
+          "forks": 54948,
+          "language": "Python"
+        },
+        {
+          "owner": "openclaw",
+          "name": "openclaw",
+          "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+          "url": "https://github.com/openclaw/openclaw",
+          "stars": 325994,
+          "forks": 63003,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "facebook",
+          "name": "react",
+          "description": "The library for web and native user interfaces.",
+          "url": "https://github.com/facebook/react",
+          "stars": 244087,
+          "forks": 50841,
+          "language": "JavaScript"
+        },
+        {
+          "owner": "tensorflow",
+          "name": "tensorflow",
+          "description": "An Open Source Machine Learning Framework for Everyone",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "stars": 194257,
+          "forks": 75259,
+          "language": "C++"
+        },
+        {
+          "owner": "microsoft",
+          "name": "vscode",
+          "description": "Visual Studio Code",
+          "url": "https://github.com/microsoft/vscode",
+          "stars": 182865,
+          "forks": 38639,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "Significant-Gravitas",
+          "name": "AutoGPT",
+          "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "stars": 182624,
+          "forks": 46227,
+          "language": "Python"
+        },
+        {
+          "owner": "n8n-io",
+          "name": "n8n",
+          "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+          "url": "https://github.com/n8n-io/n8n",
+          "stars": 180124,
+          "forks": 55975,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "flutter",
+          "name": "flutter",
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+          "url": "https://github.com/flutter/flutter",
+          "stars": 175619,
+          "forks": 30142,
+          "language": "Dart"
+        },
+        {
+          "owner": "avelino",
+          "name": "awesome-go",
+          "description": "A curated list of awesome Go frameworks, libraries and software",
+          "url": "https://github.com/avelino/awesome-go",
+          "stars": 167786,
+          "forks": 13069,
+          "language": "Go"
+        }
+      ],
+      "trending": [
+        {
+          "owner": "NVIDIA",
+          "name": "NemoClaw",
+          "description": "NVIDIA plugin for secure installation of OpenClaw",
+          "url": "https://github.com/NVIDIA/NemoClaw",
+          "stars": 13479,
+          "forks": 1293,
+          "language": "JavaScript"
+        },
+        {
+          "owner": "aiming-lab",
+          "name": "AutoResearchClaw",
+          "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+          "url": "https://github.com/aiming-lab/AutoResearchClaw",
+          "stars": 6915,
+          "forks": 710,
+          "language": "Python"
+        },
+        {
+          "owner": "calesthio",
+          "name": "Crucix",
+          "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
+          "url": "https://github.com/calesthio/Crucix",
+          "stars": 5280,
+          "forks": 759,
+          "language": "JavaScript"
+        },
+        {
+          "owner": "jackwener",
+          "name": "opencli",
+          "description": "Make any website your CLI. A powerful, AI-native runtime for seamless browser automation and dynamic web data extraction.",
+          "url": "https://github.com/jackwener/opencli",
+          "stars": 2700,
+          "forks": 244,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "MoonshotAI",
+          "name": "Attention-Residuals",
+          "description": null,
+          "url": "https://github.com/MoonshotAI/Attention-Residuals",
+          "stars": 2072,
+          "forks": 92,
+          "language": null
+        },
+        {
+          "owner": "HKUDS",
+          "name": "ClawTeam",
+          "description": "ClawTeam: Agent Swarm Intelligence (One Command → Full Automation)",
+          "url": "https://github.com/HKUDS/ClawTeam",
+          "stars": 1796,
+          "forks": 219,
+          "language": "Python"
+        },
+        {
+          "owner": "VoltAgent",
+          "name": "awesome-codex-subagents",
+          "description": "A collection of 130+ specialized Codex subagents covering a wide range of development use cases.",
+          "url": "https://github.com/VoltAgent/awesome-codex-subagents",
+          "stars": 1638,
+          "forks": 135,
+          "language": null
+        },
+        {
+          "owner": "skernelx",
+          "name": "tavily-key-generator",
+          "description": "Multi-service toolkit for Tavily and Firecrawl signup automation, key validation, and isolated proxy pools.",
+          "url": "https://github.com/skernelx/tavily-key-generator",
+          "stars": 1336,
+          "forks": 821,
+          "language": "Python"
+        },
+        {
+          "owner": "cnlimiter",
+          "name": "codex-manager",
+          "description": null,
+          "url": "https://github.com/cnlimiter/codex-manager",
+          "stars": 1143,
+          "forks": 492,
+          "language": "Python"
+        },
+        {
+          "owner": "Infatoshi",
+          "name": "OpenSquirrel",
+          "description": "For people who get distracted by agents. A native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenCode side by side — because if you're going to be squirrely, you might as well optimize for it.",
+          "url": "https://github.com/Infatoshi/OpenSquirrel",
+          "stars": 1141,
+          "forks": 72,
+          "language": "Rust"
+        }
+      ]
     }
   }
 }
