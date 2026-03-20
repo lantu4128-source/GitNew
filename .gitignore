@@ -1,0 +1,12 @@
+# 数据文件（可选保留）
+# data.json
+
+# 日志
+*.log
+cron.log
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
