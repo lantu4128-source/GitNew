@@ -2,6 +2,7 @@
 /**
  * GitHub 趋势数据抓取脚本
  * 运行方式: node fetch_data.js
+ * 支持环境变量 GITHUB_TOKEN 提升 API 限制到 5000次/小时
  */
 
 const https = require('https');
@@ -9,8 +10,9 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, 'data.json');
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
-// 领域配置 - 每个领域只用一个关键词，减少API请求
+// 领域配置
 const categories = {
     ai: { name: '人工智能', keyword: 'machine-learning' },
     web: { name: 'Web 开发', keyword: 'web' },
@@ -25,13 +27,20 @@ const categories = {
 function fetch(url) {
     return new Promise((resolve, reject) => {
         const urlObj = new URL(url);
+        const headers = {
+            'User-Agent': 'GitHub-Trending-Tracker',
+            'Accept': 'application/vnd.github.v3+json'
+        };
+
+        // 如果有 Token，添加认证头
+        if (GITHUB_TOKEN) {
+            headers['Authorization'] = `token ${GITHUB_TOKEN}`;
+        }
+
         const req = https.get({
             hostname: urlObj.hostname,
             path: urlObj.pathname + urlObj.search,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-                'Accept': 'application/vnd.github.v3+json'
-            }
+            headers
         }, (res) => {
             let data = '';
             res.on('data', chunk => data += chunk);
@@ -39,7 +48,7 @@ function fetch(url) {
                 try {
                     const json = JSON.parse(data);
                     if (json.message && json.message.includes('rate limit')) {
-                        reject(new Error('API 限制，请稍后再试或配置 GitHub Token'));
+                        reject(new Error('API 限制'));
                     } else {
                         resolve(json);
                     }
@@ -66,7 +75,6 @@ async function fetchCategory(keyword, type = 'top') {
             ? `topic:${keyword} pushed:${today}`
             : `topic:${keyword} created:>${weekAgo} stars:>50`;
     } else {
-        // 全部领域
         query = type === 'top'
             ? `stars:>10000 pushed:${today}`
             : `stars:>1000 created:>${weekAgo}`;
@@ -98,7 +106,7 @@ function sleep(ms) {
 async function main() {
     console.log(`\n========== GitHub 趋势抓取 ==========`);
     console.log(`时间: ${new Date().toLocaleString('zh-CN')}`);
-    console.log(`提示: GitHub API 未认证限制 60次/小时\n`);
+    console.log(`认证: ${GITHUB_TOKEN ? '已配置 Token (5000次/小时)' : '未认证 (60次/小时)'}\n`);
 
     const result = {
         timestamp: Date.now(),
@@ -110,18 +118,16 @@ async function main() {
         console.log(`  获取 ${cat.name}...`);
 
         const topStars = await fetchCategory(cat.keyword, 'top');
-        await sleep(2000); // 增加间隔避免限制
+        await sleep(1000);
 
         const trending = await fetchCategory(cat.keyword, 'new');
-        await sleep(2000);
+        await sleep(1000);
 
         result.categories[key] = { topStars, trending };
         console.log(`    ✓ 最高星标: ${topStars.length}, 近期热门: ${trending.length}`);
     }
 
-    // 保存数据
     fs.writeFileSync(DATA_FILE, JSON.stringify(result, null, 2));
-
     console.log(`\n✅ 数据已保存到 ${DATA_FILE}`);
 
     // 打印摘要
