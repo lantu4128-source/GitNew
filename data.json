@@ -1,25 +1,16 @@
 {
-  "timestamp": 1787192067896,
-  "date": "2026-08-20",
+  "timestamp": 1787278862069,
+  "date": "2026-08-21",
   "categories": {
     "ai": {
       "topStars": [
-        {
-          "owner": "tensorflow",
-          "name": "tensorflow",
-          "description": "An Open Source Machine Learning Framework for Everyone",
-          "url": "https://github.com/tensorflow/tensorflow",
-          "stars": 197068,
-          "forks": 76069,
-          "language": "C++"
-        },
         {
           "owner": "huggingface",
           "name": "transformers",
           "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
           "url": "https://github.com/huggingface/transformers",
-          "stars": 164270,
-          "forks": 34294,
+          "stars": 164287,
+          "forks": 34302,
           "language": "Python"
         },
         {
@@ -27,61 +18,34 @@
           "name": "pytorch",
           "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
           "url": "https://github.com/pytorch/pytorch",
-          "stars": 102491,
-          "forks": 28922,
+          "stars": 102504,
+          "forks": 28937,
           "language": "Python"
-        },
-        {
-          "owner": "microsoft",
-          "name": "ML-For-Beginners",
-          "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-          "url": "https://github.com/microsoft/ML-For-Beginners",
-          "stars": 89549,
-          "forks": 21989,
-          "language": "Jupyter Notebook"
         },
         {
           "owner": "netdata",
           "name": "netdata",
           "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
           "url": "https://github.com/netdata/netdata",
-          "stars": 80233,
+          "stars": 80245,
           "forks": 6591,
           "language": "Go"
         },
         {
-          "owner": "keras-team",
-          "name": "keras",
-          "description": "Deep Learning for humans",
-          "url": "https://github.com/keras-team/keras",
-          "stars": 64242,
-          "forks": 19755,
+          "owner": "apache",
+          "name": "airflow",
+          "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+          "url": "https://github.com/apache/airflow",
+          "stars": 46561,
+          "forks": 17632,
           "language": "Python"
-        },
-        {
-          "owner": "ultralytics",
-          "name": "ultralytics",
-          "description": "Ultralytics YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
-          "url": "https://github.com/ultralytics/ultralytics",
-          "stars": 60770,
-          "forks": 11598,
-          "language": "Python"
-        },
-        {
-          "owner": "JuliaLang",
-          "name": "julia",
-          "description": "The Julia Programming Language",
-          "url": "https://github.com/JuliaLang/julia",
-          "stars": 49017,
-          "forks": 5970,
-          "language": "Julia"
         },
         {
           "owner": "streamlit",
           "name": "streamlit",
           "description": "Streamlit — A faster way to build and share data apps.",
           "url": "https://github.com/streamlit/streamlit",
-          "stars": 45574,
+          "stars": 45578,
           "forks": 4358,
           "language": "Python"
         },
@@ -90,18 +54,63 @@
           "name": "ray",
           "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
           "url": "https://github.com/ray-project/ray",
-          "stars": 43563,
-          "forks": 7940,
+          "stars": 43571,
+          "forks": 7945,
           "language": "Python"
+        },
+        {
+          "owner": "deepspeedai",
+          "name": "DeepSpeed",
+          "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+          "url": "https://github.com/deepspeedai/DeepSpeed",
+          "stars": 42971,
+          "forks": 4936,
+          "language": "Python"
+        },
+        {
+          "owner": "qdrant",
+          "name": "qdrant",
+          "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+          "url": "https://github.com/qdrant/qdrant",
+          "stars": 34101,
+          "forks": 2599,
+          "language": "Rust"
+        },
+        {
+          "owner": "mlflow",
+          "name": "mlflow",
+          "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+          "url": "https://github.com/mlflow/mlflow",
+          "stars": 27598,
+          "forks": 6193,
+          "language": "Python"
+        },
+        {
+          "owner": "nautechsystems",
+          "name": "nautilus_trader",
+          "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+          "url": "https://github.com/nautechsystems/nautilus_trader",
+          "stars": 26720,
+          "forks": 3451,
+          "language": "Rust"
         }
       ],
       "trending": [
+        {
+          "owner": "zorost",
+          "name": "AI-Engineering-Lab",
+          "description": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.",
+          "url": "https://github.com/zorost/AI-Engineering-Lab",
+          "stars": 98,
+          "forks": 92,
+          "language": "Jupyter Notebook"
+        },
         {
           "owner": "Greninja9257",
           "name": "LabLLM",
           "description": "A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.",
           "url": "https://github.com/Greninja9257/LabLLM",
-          "stars": 57,
+          "stars": 58,
           "forks": 1,
           "language": "Swift"
         }
@@ -114,8 +123,8 @@
           "name": "flutter",
           "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
           "url": "https://github.com/flutter/flutter",
-          "stars": 178502,
-          "forks": 30978,
+          "stars": 178537,
+          "forks": 30981,
           "language": "Dart"
         },
         {
@@ -123,8 +132,17 @@
           "name": "playwright",
           "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
           "url": "https://github.com/microsoft/playwright",
-          "stars": 94763,
-          "forks": 6314,
+          "stars": 94840,
+          "forks": 6318,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "appwrite",
+          "name": "appwrite",
+          "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+          "url": "https://github.com/appwrite/appwrite",
+          "stars": 57067,
+          "forks": 5660,
           "language": "TypeScript"
         },
         {
@@ -132,17 +150,8 @@
           "name": "twenty",
           "description": "The open alternative to Salesforce, designed for AI.",
           "url": "https://github.com/twentyhq/twenty",
-          "stars": 55157,
-          "forks": 8586,
-          "language": "TypeScript"
-        },
-        {
-          "owner": "expo",
-          "name": "expo",
-          "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-          "url": "https://github.com/expo/expo",
-          "stars": 51706,
-          "forks": 13530,
+          "stars": 55212,
+          "forks": 8611,
           "language": "TypeScript"
         },
         {
@@ -150,53 +159,53 @@
           "name": "servo",
           "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
           "url": "https://github.com/servo/servo",
-          "stars": 37740,
-          "forks": 3757,
+          "stars": 37749,
+          "forks": 3758,
           "language": "Rust"
         },
         {
-          "owner": "actix",
-          "name": "actix-web",
-          "description": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.",
-          "url": "https://github.com/actix/actix-web",
-          "stars": 24788,
-          "forks": 1878,
+          "owner": "biomejs",
+          "name": "biome",
+          "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+          "url": "https://github.com/biomejs/biome",
+          "stars": 25604,
+          "forks": 1196,
           "language": "Rust"
+        },
+        {
+          "owner": "RunanywhereAI",
+          "name": "runanywhere-sdks",
+          "description": "Production ready toolkit to run AI locally",
+          "url": "https://github.com/RunanywhereAI/runanywhere-sdks",
+          "stars": 10293,
+          "forks": 369,
+          "language": "C++"
         },
         {
           "owner": "WebKit",
           "name": "WebKit",
           "description": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
           "url": "https://github.com/WebKit/WebKit",
-          "stars": 10083,
-          "forks": 2121,
+          "stars": 10085,
+          "forks": 2120,
           "language": "JavaScript"
         },
         {
-          "owner": "plainhub",
-          "name": "plain-app",
-          "description": "🔥 PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
-          "url": "https://github.com/plainhub/plain-app",
-          "stars": 6540,
-          "forks": 389,
-          "language": "Kotlin"
+          "owner": "salvo-rs",
+          "name": "salvo",
+          "description": "A powerful web framework built with a simplified design.",
+          "url": "https://github.com/salvo-rs/salvo",
+          "stars": 4425,
+          "forks": 271,
+          "language": "Rust"
         },
         {
-          "owner": "nextcloud",
-          "name": "calendar",
-          "description": "📆 Calendar app for Nextcloud",
-          "url": "https://github.com/nextcloud/calendar",
-          "stars": 1176,
-          "forks": 319,
-          "language": "JavaScript"
-        },
-        {
-          "owner": "TencentCloudBase",
-          "name": "CloudBase-AI-Toolkit",
-          "description": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
-          "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
-          "stars": 1073,
-          "forks": 134,
+          "owner": "OneKeyHQ",
+          "name": "app-monorepo",
+          "description": "Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions.",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "stars": 2416,
+          "forks": 528,
           "language": "TypeScript"
         }
       ],
@@ -209,90 +218,90 @@
           "name": "flutter",
           "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
           "url": "https://github.com/flutter/flutter",
-          "stars": 178502,
-          "forks": 30978,
+          "stars": 178537,
+          "forks": 30981,
           "language": "Dart"
         },
         {
-          "owner": "expo",
-          "name": "expo",
-          "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-          "url": "https://github.com/expo/expo",
-          "stars": 51706,
-          "forks": 13530,
-          "language": "TypeScript"
+          "owner": "matomo-org",
+          "name": "matomo",
+          "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+          "url": "https://github.com/matomo-org/matomo",
+          "stars": 21793,
+          "forks": 2890,
+          "language": "PHP"
         },
         {
           "owner": "BasedHardware",
           "name": "omi",
           "description": "AI that sees your screen, listens to your conversations and tells you what to do",
           "url": "https://github.com/BasedHardware/omi",
-          "stars": 13210,
-          "forks": 2189,
+          "stars": 13225,
+          "forks": 2192,
           "language": "Swift"
+        },
+        {
+          "owner": "mayswind",
+          "name": "ezbookkeeping",
+          "description": "A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.",
+          "url": "https://github.com/mayswind/ezbookkeeping",
+          "stars": 5437,
+          "forks": 649,
+          "language": "Go"
         },
         {
           "owner": "pytorch",
           "name": "executorch",
           "description": "On-device AI across mobile, embedded and edge for PyTorch",
           "url": "https://github.com/pytorch/executorch",
-          "stars": 4934,
-          "forks": 1114,
+          "stars": 4939,
+          "forks": 1115,
           "language": "Python"
+        },
+        {
+          "owner": "wordpress-mobile",
+          "name": "WordPress-Android",
+          "description": "WordPress for Android",
+          "url": "https://github.com/wordpress-mobile/WordPress-Android",
+          "stars": 3148,
+          "forks": 1365,
+          "language": "Kotlin"
         },
         {
           "owner": "lichess-org",
           "name": "mobile",
           "description": "Lichess mobile app",
           "url": "https://github.com/lichess-org/mobile",
-          "stars": 2493,
-          "forks": 473,
+          "stars": 2499,
+          "forks": 474,
           "language": "Dart"
+        },
+        {
+          "owner": "OneKeyHQ",
+          "name": "app-monorepo",
+          "description": "Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions.",
+          "url": "https://github.com/OneKeyHQ/app-monorepo",
+          "stars": 2416,
+          "forks": 528,
+          "language": "TypeScript"
         },
         {
           "owner": "opengisch",
           "name": "QField",
           "description": "A simplified touch optimized interface for QGIS",
           "url": "https://github.com/opengisch/QField",
-          "stars": 1317,
+          "stars": 1318,
           "forks": 341,
           "language": "C++"
         },
         {
-          "owner": "stacksjs",
-          "name": "stacks",
-          "description": "Modern, performant & for the age of AI. Develop powerful apps, clouds & framework-agnostic libraries—faster.",
-          "url": "https://github.com/stacksjs/stacks",
-          "stars": 623,
-          "forks": 16,
-          "language": "TypeScript"
-        },
-        {
-          "owner": "gammu",
-          "name": "gammu",
-          "description": "Gammu All Mobile Management Utilities",
-          "url": "https://github.com/gammu/gammu",
-          "stars": 582,
-          "forks": 172,
-          "language": "C"
-        },
-        {
-          "owner": "NativeScript",
-          "name": "android",
-          "description": "NativeScript for Android using v8",
-          "url": "https://github.com/NativeScript/android",
-          "stars": 563,
-          "forks": 144,
-          "language": "C++"
-        },
-        {
-          "owner": "aws-devtools-labs",
-          "name": "aws-blocks",
-          "description": "Composable building blocks for full-stack AWS apps — define infrastructure and runtime code together with end-to-end type safety using TypeScript, local mocking, and native client codegen for Kotlin, Swift, and Dart.",
-          "url": "https://github.com/aws-devtools-labs/aws-blocks",
-          "stars": 382,
-          "forks": 43,
-          "language": "TypeScript"
+          "owner": "status-im",
+          "name": "nimbus-eth1",
+          "description": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices",
+          "url": "https://github.com/status-im/nimbus-eth1",
+          "stars": 627,
+          "forks": 161,
+          "language": "Nim"
         }
       ],
       "trending": [
@@ -301,9 +310,18 @@
           "name": "dsh-pocket",
           "description": "把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）",
           "url": "https://github.com/shaobeichen/dsh-pocket",
-          "stars": 229,
-          "forks": 19,
+          "stars": 276,
+          "forks": 22,
           "language": "JavaScript"
+        },
+        {
+          "owner": "saya-ch",
+          "name": "dsh-mobile",
+          "description": "DeepSeek Harness 移动端适配与安全局域网访问插件，支持 Android App 和手机浏览器。",
+          "url": "https://github.com/saya-ch/dsh-mobile",
+          "stars": 63,
+          "forks": 4,
+          "language": "TypeScript"
         }
       ]
     },
@@ -314,7 +332,7 @@
           "name": "netdata",
           "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
           "url": "https://github.com/netdata/netdata",
-          "stars": 80233,
+          "stars": 80245,
           "forks": 6591,
           "language": "Go"
         },
@@ -323,43 +341,43 @@
           "name": "gitea",
           "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
           "url": "https://github.com/go-gitea/gitea",
-          "stars": 57503,
-          "forks": 7019,
+          "stars": 57523,
+          "forks": 7023,
           "language": "Go"
+        },
+        {
+          "owner": "getsentry",
+          "name": "sentry",
+          "description": "Developer-first error tracking and performance monitoring",
+          "url": "https://github.com/getsentry/sentry",
+          "stars": 44584,
+          "forks": 4818,
+          "language": "Python"
         },
         {
           "owner": "jenkinsci",
           "name": "jenkins",
           "description": "Jenkins automation server",
           "url": "https://github.com/jenkinsci/jenkins",
-          "stars": 26471,
-          "forks": 9795,
+          "stars": 26480,
+          "forks": 9798,
           "language": "Java"
         },
         {
-          "owner": "argoproj",
-          "name": "argo-cd",
-          "description": "Declarative Continuous Deployment for Kubernetes",
-          "url": "https://github.com/argoproj/argo-cd",
-          "stars": 23957,
-          "forks": 7755,
+          "owner": "dagger",
+          "name": "dagger",
+          "description": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+          "url": "https://github.com/dagger/dagger",
+          "stars": 16185,
+          "forks": 913,
           "language": "Go"
-        },
-        {
-          "owner": "floci-io",
-          "name": "floci",
-          "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
-          "url": "https://github.com/floci-io/floci",
-          "stars": 20584,
-          "forks": 2153,
-          "language": "Java"
         },
         {
           "owner": "go-task",
           "name": "task",
           "description": "A fast, cross-platform build tool inspired by Make, designed for modern workflows.",
           "url": "https://github.com/go-task/task",
-          "stars": 16001,
+          "stars": 16008,
           "forks": 887,
           "language": "Go"
         },
@@ -377,77 +395,49 @@
           "name": "bytebase",
           "description": "Database governance built for humans and agents — controlling changes and access across every major database.",
           "url": "https://github.com/bytebase/bytebase",
-          "stars": 14402,
+          "stars": 14406,
           "forks": 971,
           "language": "Go"
         },
         {
-          "owner": "Unleash",
-          "name": "unleash",
-          "description": "Open-source feature management platform",
-          "url": "https://github.com/Unleash/unleash",
-          "stars": 13746,
-          "forks": 883,
-          "language": "TypeScript"
+          "owner": "runatlantis",
+          "name": "atlantis",
+          "description": "Terraform Pull Request Automation",
+          "url": "https://github.com/runatlantis/atlantis",
+          "stars": 9244,
+          "forks": 1326,
+          "language": "Go"
         },
         {
-          "owner": "OneUptime",
-          "name": "oneuptime",
-          "description": "Complete open-source monitoring and observability platform.",
-          "url": "https://github.com/OneUptime/oneuptime",
-          "stars": 7484,
-          "forks": 434,
-          "language": "TypeScript"
+          "owner": "cloudnative-pg",
+          "name": "cloudnative-pg",
+          "description": "The most popular Kubernetes Operator for PostgreSQL.",
+          "url": "https://github.com/cloudnative-pg/cloudnative-pg",
+          "stars": 9163,
+          "forks": 747,
+          "language": "Go"
         }
       ],
-      "trending": [
-        {
-          "owner": "inevolin",
-          "name": "k8s-cpu-limits-analyzed",
-          "description": "Kubernetes CPU limits make your apps (very) slow and costly. CPU throttling analyzed, with proof.",
-          "url": "https://github.com/inevolin/k8s-cpu-limits-analyzed",
-          "stars": 96,
-          "forks": 3,
-          "language": "Shell"
-        }
-      ]
+      "trending": []
     },
     "data": {
       "topStars": [
-        {
-          "owner": "microsoft",
-          "name": "ML-For-Beginners",
-          "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-          "url": "https://github.com/microsoft/ML-For-Beginners",
-          "stars": 89549,
-          "forks": 21989,
-          "language": "Jupyter Notebook"
-        },
-        {
-          "owner": "apache",
-          "name": "superset",
-          "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-          "url": "https://github.com/apache/superset",
-          "stars": 74315,
-          "forks": 18127,
-          "language": "Python"
-        },
-        {
-          "owner": "keras-team",
-          "name": "keras",
-          "description": "Deep Learning for humans",
-          "url": "https://github.com/keras-team/keras",
-          "stars": 64242,
-          "forks": 19755,
-          "language": "Python"
-        },
         {
           "owner": "SimplifyJobs",
           "name": "Summer2027-Internships",
           "description": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
           "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
-          "stars": 46603,
-          "forks": 3238,
+          "stars": 46626,
+          "forks": 3239,
+          "language": "Python"
+        },
+        {
+          "owner": "apache",
+          "name": "airflow",
+          "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+          "url": "https://github.com/apache/airflow",
+          "stars": 46561,
+          "forks": 17632,
           "language": "Python"
         },
         {
@@ -455,7 +445,7 @@
           "name": "streamlit",
           "description": "Streamlit — A faster way to build and share data apps.",
           "url": "https://github.com/streamlit/streamlit",
-          "stars": 45574,
+          "stars": 45578,
           "forks": 4358,
           "language": "Python"
         },
@@ -464,45 +454,63 @@
           "name": "ray",
           "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
           "url": "https://github.com/ray-project/ray",
-          "stars": 43563,
-          "forks": 7940,
+          "stars": 43571,
+          "forks": 7945,
           "language": "Python"
         },
         {
-          "owner": "growthbook",
-          "name": "growthbook",
-          "description": "Open Source Feature Flags, Experimentation, and Product Analytics",
-          "url": "https://github.com/growthbook/growthbook",
-          "stars": 8139,
-          "forks": 815,
-          "language": "TypeScript"
+          "owner": "trinodb",
+          "name": "trino",
+          "description": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+          "url": "https://github.com/trinodb/trino",
+          "stars": 13166,
+          "forks": 3740,
+          "language": "Java"
         },
         {
-          "owner": "flyteorg",
-          "name": "flyte",
-          "description": "Dynamic, resilient AI orchestration. Coordinate data, models, and compute as you build AI workflows.",
-          "url": "https://github.com/flyteorg/flyte",
-          "stars": 7212,
-          "forks": 873,
-          "language": "Go"
-        },
-        {
-          "owner": "opengeos",
-          "name": "GeoLibre",
-          "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-          "url": "https://github.com/opengeos/GeoLibre",
-          "stars": 6444,
-          "forks": 642,
-          "language": "TypeScript"
-        },
-        {
-          "owner": "pixeltable",
-          "name": "pixeltable",
-          "description": "Unified multimodal backend for AI data apps",
-          "url": "https://github.com/pixeltable/pixeltable",
-          "stars": 1614,
-          "forks": 219,
+          "owner": "fivetran",
+          "name": "great_expectations",
+          "description": "Always know what to expect from your data.",
+          "url": "https://github.com/fivetran/great_expectations",
+          "stars": 11728,
+          "forks": 1801,
           "language": "Python"
+        },
+        {
+          "owner": "wandb",
+          "name": "wandb",
+          "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+          "url": "https://github.com/wandb/wandb",
+          "stars": 11234,
+          "forks": 884,
+          "language": "Python"
+        },
+        {
+          "owner": "voxel51",
+          "name": "fiftyone",
+          "description": "Refine high-quality datasets and visual AI models",
+          "url": "https://github.com/voxel51/fiftyone",
+          "stars": 11024,
+          "forks": 813,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "NVIDIA",
+          "name": "cudf",
+          "description": "cuDF - GPU DataFrame Library ",
+          "url": "https://github.com/NVIDIA/cudf",
+          "stars": 9731,
+          "forks": 1093,
+          "language": "C++"
+        },
+        {
+          "owner": "evidence-dev",
+          "name": "evidence",
+          "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
+          "url": "https://github.com/evidence-dev/evidence",
+          "stars": 6866,
+          "forks": 396,
+          "language": "TypeScript"
         }
       ],
       "trending": []
@@ -510,21 +518,12 @@
     "security": {
       "topStars": [
         {
-          "owner": "KeygraphHQ",
-          "name": "shannon",
-          "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
-          "url": "https://github.com/KeygraphHQ/shannon",
-          "stars": 46951,
-          "forks": 5417,
-          "language": "TypeScript"
-        },
-        {
           "owner": "Infisical",
           "name": "infisical",
           "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
           "url": "https://github.com/Infisical/infisical",
-          "stars": 28854,
-          "forks": 2209,
+          "stars": 28866,
+          "forks": 2208,
           "language": "TypeScript"
         },
         {
@@ -532,8 +531,8 @@
           "name": "authelia",
           "description": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™",
           "url": "https://github.com/authelia/authelia",
-          "stars": 28627,
-          "forks": 1466,
+          "stars": 28638,
+          "forks": 1465,
           "language": "Go"
         },
         {
@@ -541,63 +540,72 @@
           "name": "cilium",
           "description": "eBPF-based Networking, Security, and Observability",
           "url": "https://github.com/cilium/cilium",
-          "stars": 24976,
-          "forks": 3973,
+          "stars": 24983,
+          "forks": 3979,
           "language": "Go"
+        },
+        {
+          "owner": "matomo-org",
+          "name": "matomo",
+          "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+          "url": "https://github.com/matomo-org/matomo",
+          "stars": 21793,
+          "forks": 2890,
+          "language": "PHP"
+        },
+        {
+          "owner": "eosphoros-ai",
+          "name": "DB-GPT",
+          "description": "open-source agentic AI data assistant for the next generation of AI + Data products.",
+          "url": "https://github.com/eosphoros-ai/DB-GPT",
+          "stars": 19772,
+          "forks": 2883,
+          "language": "Python"
+        },
+        {
+          "owner": "wazuh",
+          "name": "wazuh",
+          "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+          "url": "https://github.com/wazuh/wazuh",
+          "stars": 16618,
+          "forks": 2448,
+          "language": "C++"
+        },
+        {
+          "owner": "maurosoria",
+          "name": "dirsearch",
+          "description": "Web path scanner",
+          "url": "https://github.com/maurosoria/dirsearch",
+          "stars": 14649,
+          "forks": 2440,
+          "language": "Python"
         },
         {
           "owner": "bytebase",
           "name": "bytebase",
           "description": "Database governance built for humans and agents — controlling changes and access across every major database.",
           "url": "https://github.com/bytebase/bytebase",
-          "stars": 14402,
+          "stars": 14406,
           "forks": 971,
           "language": "Go"
+        },
+        {
+          "owner": "nmap",
+          "name": "nmap",
+          "description": "Nmap - the Network Mapper. Github mirror of official SVN repository.",
+          "url": "https://github.com/nmap/nmap",
+          "stars": 13399,
+          "forks": 2884,
+          "language": "C"
         },
         {
           "owner": "jason5ng32",
           "name": "MyIP",
           "description": "The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.",
           "url": "https://github.com/jason5ng32/MyIP",
-          "stars": 11677,
-          "forks": 1220,
+          "stars": 11695,
+          "forks": 1219,
           "language": "JavaScript"
-        },
-        {
-          "owner": "frappe",
-          "name": "frappe",
-          "description": "Low code web framework for real world applications, in Python and Javascript",
-          "url": "https://github.com/frappe/frappe",
-          "stars": 10595,
-          "forks": 5224,
-          "language": "Python"
-        },
-        {
-          "owner": "openai",
-          "name": "codex-security",
-          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-          "url": "https://github.com/openai/codex-security",
-          "stars": 9984,
-          "forks": 705,
-          "language": "TypeScript"
-        },
-        {
-          "owner": "OpenCTI-Platform",
-          "name": "opencti",
-          "description": "Open Cyber Threat Intelligence Platform",
-          "url": "https://github.com/OpenCTI-Platform/opencti",
-          "stars": 9832,
-          "forks": 1436,
-          "language": "TypeScript"
-        },
-        {
-          "owner": "firezone",
-          "name": "firezone",
-          "description": "Enterprise-ready zero-trust access platform built on WireGuard®.",
-          "url": "https://github.com/firezone/firezone",
-          "stars": 9038,
-          "forks": 443,
-          "language": "Elixir"
         }
       ],
       "trending": [
@@ -606,92 +614,83 @@
           "name": "aegis-vault",
           "description": "Offline password, identity, and secret vault. Argon2id + AES-256-GCM, zero servers, zero telemetry.",
           "url": "https://github.com/voyb/aegis-vault",
-          "stars": 91,
+          "stars": 90,
           "forks": 1,
           "language": "HTML"
+        },
+        {
+          "owner": "azrtydxb",
+          "name": "procoder",
+          "description": "Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing, quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped bug's class. One Go binary, no runtime deps, works with 20+ agents.",
+          "url": "https://github.com/azrtydxb/procoder",
+          "stars": 79,
+          "forks": 5,
+          "language": "Go"
         }
       ]
     },
     "game": {
       "topStars": [
         {
-          "owner": "lichess-org",
-          "name": "lila",
-          "description": "♞ lichess.org: the forever free, adless and open source chess server ♞",
-          "url": "https://github.com/lichess-org/lila",
-          "stars": 18644,
-          "forks": 2763,
-          "language": "Scala"
-        },
-        {
-          "owner": "OpenRCT2",
-          "name": "OpenRCT2",
-          "description": "An open source re-implementation of RollerCoaster Tycoon 2 🎢",
-          "url": "https://github.com/OpenRCT2/OpenRCT2",
-          "stars": 16089,
-          "forks": 1877,
-          "language": "C++"
-        },
-        {
           "owner": "endless-sky",
           "name": "endless-sky",
           "description": "Space exploration, trading, and combat game.",
           "url": "https://github.com/endless-sky/endless-sky",
-          "stars": 7502,
-          "forks": 1299,
+          "stars": 7504,
+          "forks": 1300,
           "language": "C++"
         },
         {
-          "owner": "space-wizards",
-          "name": "space-station-14",
-          "description": "A multiplayer game about paranoia and chaos on a space station. Remake of the cult-classic Space Station 13.",
-          "url": "https://github.com/space-wizards/space-station-14",
-          "stars": 3746,
-          "forks": 5612,
-          "language": "C#"
+          "owner": "FunkinCrew",
+          "name": "Funkin",
+          "description": "A rhythm game made with HaxeFlixel",
+          "url": "https://github.com/FunkinCrew/Funkin",
+          "stars": 3741,
+          "forks": 2541,
+          "language": "Haxe"
         },
         {
           "owner": "gmh5225",
           "name": "awesome-game-security",
           "description": "awesome game security [Welcome to PR]",
           "url": "https://github.com/gmh5225/awesome-game-security",
-          "stars": 3391,
+          "stars": 3398,
           "forks": 482,
           "language": "Python"
         },
         {
-          "owner": "opengaming",
-          "name": "osgameclones",
-          "description": "Open Source Clones of Popular Games",
-          "url": "https://github.com/opengaming/osgameclones",
-          "stars": 3087,
-          "forks": 441,
-          "language": "Python"
+          "owner": "openfrontio",
+          "name": "OpenFrontIO",
+          "description": "Online browser-based RTS game",
+          "url": "https://github.com/openfrontio/OpenFrontIO",
+          "stars": 2535,
+          "forks": 1284,
+          "language": "TypeScript"
+        },
+        {
+          "owner": "magefree",
+          "name": "mage",
+          "description": "XMage - Magic Another Game Engine",
+          "url": "https://github.com/magefree/mage",
+          "stars": 2339,
+          "forks": 929,
+          "language": "Java"
         },
         {
           "owner": "tgstation",
           "name": "tgstation",
           "description": "The /tg/station branch of SS13.",
           "url": "https://github.com/tgstation/tgstation",
-          "stars": 1929,
-          "forks": 5301,
+          "stars": 1931,
+          "forks": 5299,
           "language": "DM"
-        },
-        {
-          "owner": "OpenLoco",
-          "name": "OpenLoco",
-          "description": "An open source re-implementation of Chris Sawyer's Locomotion",
-          "url": "https://github.com/OpenLoco/OpenLoco",
-          "stars": 1865,
-          "forks": 212,
-          "language": "C++"
         },
         {
           "owner": "Rangi42",
           "name": "polishedcrystal",
           "description": "An upgrade to Pokémon Crystal. Brings features and content up to date, and adds some original content.",
           "url": "https://github.com/Rangi42/polishedcrystal",
-          "stars": 1618,
+          "stars": 1619,
           "forks": 336,
           "language": "Assembly"
         },
@@ -703,6 +702,24 @@
           "stars": 1136,
           "forks": 42,
           "language": "Rust"
+        },
+        {
+          "owner": "bradharding",
+          "name": "doomretro",
+          "description": "The classic, refined DOOM source port. For Windows PC.",
+          "url": "https://github.com/bradharding/doomretro",
+          "stars": 768,
+          "forks": 91,
+          "language": "C"
+        },
+        {
+          "owner": "efroemling",
+          "name": "ballistica",
+          "description": "The BombSquad Game Engine",
+          "url": "https://github.com/efroemling/ballistica",
+          "stars": 700,
+          "forks": 140,
+          "language": "Python"
         }
       ],
       "trending": [
@@ -711,7 +728,7 @@
           "name": "The-Choicer-Voicer",
           "description": "The Choicer Voicer, a game show where your voice is the star!",
           "url": "https://github.com/YeahMaybeee/The-Choicer-Voicer",
-          "stars": 79,
+          "stars": 75,
           "forks": 0,
           "language": null
         }
@@ -724,8 +741,8 @@
           "name": "openclaw",
           "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
           "url": "https://github.com/openclaw/openclaw",
-          "stars": 386807,
-          "forks": 81263,
+          "stars": 386926,
+          "forks": 81274,
           "language": "TypeScript"
         },
         {
@@ -733,8 +750,8 @@
           "name": "linux",
           "description": "Linux kernel source tree",
           "url": "https://github.com/torvalds/linux",
-          "stars": 243329,
-          "forks": 64002,
+          "stars": 243450,
+          "forks": 64014,
           "language": "C"
         },
         {
@@ -742,8 +759,8 @@
           "name": "hermes-agent",
           "description": "The agent that grows with you",
           "url": "https://github.com/NousResearch/hermes-agent",
-          "stars": 233086,
-          "forks": 46628,
+          "stars": 233578,
+          "forks": 46807,
           "language": "Python"
         },
         {
@@ -751,8 +768,8 @@
           "name": "n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 201221,
-          "forks": 60235,
+          "stars": 201397,
+          "forks": 60252,
           "language": "TypeScript"
         },
         {
@@ -760,26 +777,17 @@
           "name": "opencode",
           "description": "The open source coding agent.",
           "url": "https://github.com/anomalyco/opencode",
-          "stars": 199259,
-          "forks": 25699,
+          "stars": 199578,
+          "forks": 25757,
           "language": "TypeScript"
-        },
-        {
-          "owner": "tensorflow",
-          "name": "tensorflow",
-          "description": "An Open Source Machine Learning Framework for Everyone",
-          "url": "https://github.com/tensorflow/tensorflow",
-          "stars": 197068,
-          "forks": 76069,
-          "language": "C++"
         },
         {
           "owner": "microsoft",
           "name": "vscode",
           "description": "Visual Studio Code",
           "url": "https://github.com/microsoft/vscode",
-          "stars": 188944,
-          "forks": 41724,
+          "stars": 188999,
+          "forks": 41734,
           "language": "TypeScript"
         },
         {
@@ -787,8 +795,8 @@
           "name": "AutoGPT",
           "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
           "url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "stars": 186691,
-          "forks": 46049,
+          "stars": 186690,
+          "forks": 46045,
           "language": "Python"
         },
         {
@@ -796,8 +804,8 @@
           "name": "ollama",
           "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
           "url": "https://github.com/ollama/ollama",
-          "stars": 178989,
-          "forks": 17479,
+          "stars": 179070,
+          "forks": 17486,
           "language": "Go"
         },
         {
@@ -805,55 +813,46 @@
           "name": "flutter",
           "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
           "url": "https://github.com/flutter/flutter",
-          "stars": 178502,
-          "forks": 30978,
+          "stars": 178537,
+          "forks": 30981,
           "language": "Dart"
+        },
+        {
+          "owner": "huggingface",
+          "name": "transformers",
+          "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+          "url": "https://github.com/huggingface/transformers",
+          "stars": 164287,
+          "forks": 34302,
+          "language": "Python"
         }
       ],
       "trending": [
         {
-          "owner": "yjh051108",
-          "name": "dsh-routing-suite",
-          "description": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-          "url": "https://github.com/yjh051108/dsh-routing-suite",
-          "stars": 6317,
-          "forks": 114,
-          "language": "PowerShell"
-        },
-        {
-          "owner": "xiaobright",
-          "name": "dsh-anchored-standard",
-          "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
-          "url": "https://github.com/xiaobright/dsh-anchored-standard",
-          "stars": 3640,
-          "forks": 109,
-          "language": "JavaScript"
+          "owner": "s1dashu",
+          "name": "ip-as-logo-skill",
+          "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+          "url": "https://github.com/s1dashu/ip-as-logo-skill",
+          "stars": 3155,
+          "forks": 153,
+          "language": null
         },
         {
           "owner": "yetone",
           "name": "cumora",
           "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
           "url": "https://github.com/yetone/cumora",
-          "stars": 2702,
-          "forks": 309,
+          "stars": 2780,
+          "forks": 330,
           "language": "TypeScript"
         },
         {
-          "owner": "s1dashu",
-          "name": "ip-as-logo-skill",
-          "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
-          "url": "https://github.com/s1dashu/ip-as-logo-skill",
-          "stars": 2152,
-          "forks": 99,
-          "language": null
-        },
-        {
-          "owner": "dsh-market",
-          "name": "dsh-market",
-          "description": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
-          "url": "https://github.com/dsh-market/dsh-market",
-          "stars": 1271,
-          "forks": 77,
+          "owner": "CopilotKit",
+          "name": "OpenBot",
+          "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "stars": 1678,
+          "forks": 177,
           "language": "TypeScript"
         },
         {
@@ -861,35 +860,17 @@
           "name": "northcinder",
           "description": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
           "url": "https://github.com/cinderline/northcinder",
-          "stars": 1193,
-          "forks": 4,
+          "stars": 1200,
+          "forks": 5,
           "language": "JavaScript"
-        },
-        {
-          "owner": "alchaincyf",
-          "name": "deepseek-harness-orange-book",
-          "description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
-          "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
-          "stars": 1080,
-          "forks": 96,
-          "language": "HTML"
-        },
-        {
-          "owner": "ZSvirt",
-          "name": "zsvirt",
-          "description": "Core IaaS engine and cloud infrastructure foundation of ZSvirt",
-          "url": "https://github.com/ZSvirt/zsvirt",
-          "stars": 1073,
-          "forks": 155,
-          "language": "Java"
         },
         {
           "owner": "Tiger3807861189",
           "name": "DeepSeek-V4-J-Space-Capability-Realization-Report",
           "description": "DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Flash/Pro).",
           "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-          "stars": 1018,
-          "forks": 66,
+          "stars": 1037,
+          "forks": 67,
           "language": null
         }
       ]
