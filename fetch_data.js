@@ -39,6 +39,15 @@ const CATEGORY_TEXT_SIGNALS = {
     media: /\b(film|cinema|video|animation|movie|short film|storyboard|screenplay|text[- ]to[- ]video|image[- ]to[- ]video)\b/i
 };
 
+const LLM_MODEL_CORE_PATTERN =
+    /\b(large language model|language model|foundation model|pre[- ]train(?:ed|ing)?|model weights?|checkpoint|base model|transformer(?:s)?|tokenizer|fine[- ]tuning|inference|quantization|model serving|embedding model|vision[- ]language model|multimodal model|model benchmark|model architecture|model definition|from scratch)\b/i;
+
+const LLM_APPLICATION_PATTERN =
+    /\b(agent|agents|agentic|multi[- ]agent|autonomous|assistant|chatgpt|chatbot|copilot|workflow|orchestrat|rag|retrieval[- ]augmented|mcp|prompt(?:s)?|browser automation|coding agent|ai coding|claude code|codex|course|tutorial|roadmap|skill(?:s)?|harness|plugin|browser extension|structured information|extracting .* using llms?|alternative to chatgpt|offline on your computer|ai compute engine|router|proxy)\b/i;
+
+const LLM_MODEL_PROJECT_PATTERN =
+    /\b(ollama|vllm|llama\.cpp|huggingface\/transformers|llama models?|model weights?|pretrained models?)\b/i;
+
 const AGENT_TOPIC_SIGNALS = new Set([
     'ai-agent', 'agentic', 'multi-agent', 'autonomous-agent',
     'agent-framework', 'agent-platform', 'agentic-workflow', 'tool-use'
@@ -65,15 +74,30 @@ const MEDIA_AI_SIGNALS =
 const categories = {
     llm: {
         name: '大模型',
-        query: 'topic:llm',
+        queries: [
+            'topic:llm',
+            '"large language model"',
+            'LLM inference',
+            'LLM training',
+            'transformer model',
+            'model weights'
+        ],
         topMinStars: 1000,
         newMinStars: 50,
         recentDays: 30,
-        signal: 'llm'
+        modelCentric: true
     },
     agent: {
         name: 'AI Agent',
-        query: '"multi-agent"',
+        queries: [
+            '"multi-agent"',
+            '"AI agent"',
+            'agentic',
+            '"agent harness"',
+            '"agent framework"',
+            '"coding agent"',
+            '"autonomous agent"'
+        ],
         topMinStars: 500,
         newMinStars: 30,
         recentDays: 30,
@@ -216,12 +240,24 @@ function isAgentEducationRepository(repo) {
         !AGENT_EDUCATION_EXCLUSION_PATTERN.test(shortText);
 }
 
+function isModelCentricRepository(repo) {
+    const topics = (repo.topics || []).map(topic => topic.toLowerCase());
+    const modelText = `${repo.name || ''} ${(repo.description || '').slice(0, 600)}`;
+    const searchableText = `${topics.join(' ')} ${modelText}`;
+    const modelCoreMatch = LLM_MODEL_CORE_PATTERN.test(modelText) ||
+        LLM_MODEL_PROJECT_PATTERN.test(modelText);
+    const applicationMatch = LLM_APPLICATION_PATTERN.test(searchableText);
+
+    return modelCoreMatch && !applicationMatch;
+}
+
 function matchesCategory(repo, category) {
     if (category.fusion === 'agentEducation') {
         return isAgentEducationRepository(repo);
     }
 
     if (category.strictEducation) return isEducationRepository(repo);
+    if (category.modelCentric) return isModelCentricRepository(repo);
     if (!category.signal) return true;
 
     const topics = (repo.topics || []).map(topic => topic.toLowerCase());
