@@ -11,6 +11,7 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, 'data.json');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const REQUEST_DELAY = GITHUB_TOKEN ? 1000 : 6500;
 
 // 领域配置
 const categories = {
@@ -21,6 +22,7 @@ const categories = {
     data: { name: '数据科学', keyword: 'data-science' },
     security: { name: '安全', keyword: 'security' },
     game: { name: '游戏开发', keyword: 'game' },
+    education: { name: '教育', keyword: 'education', newMinStars: 5 },
     all: { name: '全部', keyword: '' }
 };
 
@@ -65,7 +67,7 @@ function fetch(url) {
     });
 }
 
-async function fetchCategory(keyword, type = 'top') {
+async function fetchCategory(keyword, type = 'top', newMinStars = 50) {
     const today = new Date().toISOString().split('T')[0];
     const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
 
@@ -73,7 +75,7 @@ async function fetchCategory(keyword, type = 'top') {
     if (keyword) {
         query = type === 'top'
             ? `topic:${keyword} pushed:${today}`
-            : `topic:${keyword} created:>${weekAgo} stars:>50`;
+            : `topic:${keyword} created:>${weekAgo} stars:>${newMinStars}`;
     } else {
         query = type === 'top'
             ? `stars:>10000 pushed:${today}`
@@ -106,7 +108,7 @@ function sleep(ms) {
 async function main() {
     console.log(`\n========== GitHub 趋势抓取 ==========`);
     console.log(`时间: ${new Date().toLocaleString('zh-CN')}`);
-    console.log(`认证: ${GITHUB_TOKEN ? '已配置 Token (5000次/小时)' : '未认证 (60次/小时)'}\n`);
+    console.log(`认证: ${GITHUB_TOKEN ? '已配置 Token' : '未认证 (搜索 API 10次/分钟)'}\n`);
 
     const result = {
         timestamp: Date.now(),
@@ -118,10 +120,10 @@ async function main() {
         console.log(`  获取 ${cat.name}...`);
 
         const topStars = await fetchCategory(cat.keyword, 'top');
-        await sleep(1000);
+        await sleep(REQUEST_DELAY);
 
-        const trending = await fetchCategory(cat.keyword, 'new');
-        await sleep(1000);
+        const trending = await fetchCategory(cat.keyword, 'new', cat.newMinStars);
+        await sleep(REQUEST_DELAY);
 
         result.categories[key] = { topStars, trending };
         console.log(`    ✓ 最高星标: ${topStars.length}, 近期热门: ${trending.length}`);
