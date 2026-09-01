@@ -203,14 +203,12 @@
             <p class="update-info" id="updateTime">正在加载...</p>
 
             <div class="category-tags">
-                <span class="category-tag active" data-category="ai">🤖 人工智能</span>
-                <span class="category-tag" data-category="web">🌐 Web开发</span>
-                <span class="category-tag" data-category="mobile">📱 移动开发</span>
-                <span class="category-tag" data-category="devops">🔧 DevOps</span>
-                <span class="category-tag" data-category="data">📊 数据科学</span>
-                <span class="category-tag" data-category="security">🔒 安全</span>
-                <span class="category-tag" data-category="game">🎮 游戏</span>
+                <span class="category-tag" data-category="llm">🧠 大模型</span>
+                <span class="category-tag active" data-category="agent">🤖 AI Agent</span>
+                <span class="category-tag" data-category="vibe">💻 Vibe Coding</span>
                 <span class="category-tag" data-category="education">🎓 教育</span>
+                <span class="category-tag" data-category="k12">🏫 K12</span>
+                <span class="category-tag" data-category="media">🎬 AI影视/视频</span>
                 <span class="category-tag" data-category="all">📦 全部</span>
             </div>
 
@@ -256,17 +254,21 @@
         };
 
         const categoryNames = {
-            ai: '人工智能', web: 'Web开发', mobile: '移动开发',
-            devops: 'DevOps', data: '数据科学', security: '安全',
-            game: '游戏', education: '教育', all: '全部'
+            llm: '大模型', agent: 'AI Agent', vibe: 'Vibe Coding',
+            education: '教育', k12: 'K12', media: 'AI影视/视频', all: '全部'
         };
 
         let allData = null;
-        let currentCategory = 'ai';
+        let currentCategory = 'agent';
 
         function formatNumber(num) {
             if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
             return num.toString();
+        }
+
+        function formatDate(value) {
+            if (!value) return '';
+            return new Date(value).toLocaleString('zh-CN');
         }
 
         function renderRepo(repo, rank) {
@@ -284,6 +286,8 @@
                         <span class="meta-item stars">★ ${formatNumber(repo.stars)}</span>
                         ${repo.language ? `<span class="meta-item"><span class="language-dot" style="background:${langColor}"></span> ${repo.language}</span>` : ''}
                         <span class="meta-item">🍴 ${formatNumber(repo.forks)}</span>
+                        ${repo.updatedAt ? `<span class="meta-item">↻ ${formatDate(repo.updatedAt)}</span>` : ''}
+                        ${repo.starGrowthPerDay ? `<span class="meta-item" title="根据每日数据快照或项目年龄估算">↗ ${formatNumber(repo.starGrowthPerDay)}/日</span>` : ''}
                     </div>
                 </li>
             `;
