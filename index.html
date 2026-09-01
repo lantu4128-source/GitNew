@@ -204,7 +204,8 @@
 
             <div class="category-tags">
                 <span class="category-tag" data-category="llm">🧠 大模型</span>
-                <span class="category-tag active" data-category="agent">🤖 AI Agent</span>
+                <span class="category-tag active" data-category="agentEducation">🤝 Agent+教育</span>
+                <span class="category-tag" data-category="agent">🤖 AI Agent</span>
                 <span class="category-tag" data-category="vibe">💻 Vibe Coding</span>
                 <span class="category-tag" data-category="education">🎓 教育</span>
                 <span class="category-tag" data-category="k12">🏫 K12</span>
@@ -254,16 +255,17 @@
         };
 
         const categoryNames = {
-            llm: '大模型', agent: 'AI Agent', vibe: 'Vibe Coding',
+            llm: '大模型', agentEducation: 'Agent+教育', agent: 'AI Agent', vibe: 'Vibe Coding',
             education: '教育', k12: 'K12', media: 'AI影视/视频', all: '全部'
         };
 
         let allData = null;
-        let currentCategory = 'agent';
+        let currentCategory = 'agentEducation';
 
         function formatNumber(num) {
             if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
-            return num.toString();
+            if (!Number.isFinite(num)) return '0';
+            return Number.isInteger(num) ? num.toString() : num.toFixed(1);
         }
 
         function formatDate(value) {

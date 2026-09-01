@@ -11,7 +11,8 @@ const path = require('path');
 
 const DATA_FILE = path.join(__dirname, 'data.json');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
-const REQUEST_DELAY = GITHUB_TOKEN ? 1000 : 6500;
+const ONLY_CATEGORY = process.env.ONLY_CATEGORY || '';
+const REQUEST_DELAY = GITHUB_TOKEN ? 1000 : 8000;
 const DAY_MS = 24 * 60 * 60 * 1000;
 const previousData = loadPreviousData();
 const previousRepoStars = buildPreviousRepoStars(previousData);
@@ -43,6 +44,20 @@ const AGENT_TOPIC_SIGNALS = new Set([
     'agent-framework', 'agent-platform', 'agentic-workflow', 'tool-use'
 ]);
 
+const AGENT_EDUCATION_TOPIC_SIGNALS = new Set([
+    'education', 'educational', 'edtech', 'classroom', 'classroom-tools',
+    'course', 'courses', 'curriculum', 'teacher', 'teachers', 'student',
+    'students', 'tutor', 'tutoring', 'study-tools', 'quiz', 'quizzes',
+    'exam', 'exams', 'learning-platform', 'interactive-learning',
+    'teaching-tool', 'pedagogy'
+]);
+
+const AGENT_EDUCATION_SCENE_PATTERN =
+    /\b(education|educational|edtech|classroom|course|curriculum|tutor|tutoring|teacher|teachers|student|students|school|university|learner|study coach|exam|quiz|lesson|pedagogy|instructional|learning platform|personalized learning|adaptive learning|interactive learning)\b/i;
+
+const AGENT_EDUCATION_EXCLUSION_PATTERN =
+    /\b(not a (?:kids[- ]?ai|education) product|fictional university|political propaganda|video generation|reinforcement learning|machine learning agents toolkit)\b/i;
+
 const MEDIA_AI_SIGNALS =
     /\b(ai|artificial intelligence|generative ai|diffusion|text[- ]to[- ]video|image[- ]to[- ]video|video generation|digital human|avatar|talking face)\b/i;
 
@@ -63,6 +78,25 @@ const categories = {
         newMinStars: 30,
         recentDays: 30,
         signal: 'agent'
+    },
+    agentEducation: {
+        name: 'Agent+教育',
+        queries: [
+            '"multi-agent" education',
+            '"multi-agent" classroom',
+            '"multi-agent" learning',
+            '"educational agent"',
+            'agent tutor',
+            'agent course',
+            'agent exam',
+            'agent student',
+            'agent school',
+            '"AI tutor"'
+        ],
+        topMinStars: 20,
+        newMinStars: 1,
+        recentDays: 30,
+        fusion: 'agentEducation'
     },
     vibe: {
         name: 'Vibe Coding',
@@ -170,7 +204,23 @@ function isEducationRepository(repo) {
     return (hasEducationTopic && hasSupportingTopic) || textSignals.size >= 2;
 }
 
+function isAgentEducationRepository(repo) {
+    const topics = (repo.topics || []).map(topic => topic.toLowerCase());
+    const shortText = `${repo.name || ''} ${(repo.description || '').slice(0, 600)}`;
+    const agentMatch = CATEGORY_TEXT_SIGNALS.agent.test(shortText) ||
+        topics.some(topic => AGENT_TOPIC_SIGNALS.has(topic));
+    const educationSceneMatch = AGENT_EDUCATION_SCENE_PATTERN.test(shortText) ||
+        topics.some(topic => AGENT_EDUCATION_TOPIC_SIGNALS.has(topic));
+
+    return agentMatch && educationSceneMatch &&
+        !AGENT_EDUCATION_EXCLUSION_PATTERN.test(shortText);
+}
+
 function matchesCategory(repo, category) {
+    if (category.fusion === 'agentEducation') {
+        return isAgentEducationRepository(repo);
+    }
+
     if (category.strictEducation) return isEducationRepository(repo);
     if (!category.signal) return true;
 
@@ -220,38 +270,51 @@ function getTrendMetrics(repo) {
 async function fetchCategory(category, type = 'top') {
     const recentDays = category.recentDays || 7;
     const recentDate = new Date(Date.now() - recentDays * DAY_MS).toISOString().split('T')[0];
-    const queryBase = category.query;
+    const queryBases = category.queries || [category.query];
+    const reposByName = new Map();
 
-    let query;
-    if (queryBase) {
-        if (type === 'top' && category.topMinStars) {
-            query = `${queryBase} stars:>${category.topMinStars}`;
+    for (const [index, queryBase] of queryBases.entries()) {
+        let query;
+        if (queryBase) {
+            if (type === 'top' && category.topMinStars) {
+                query = `${queryBase} stars:>${category.topMinStars}`;
+            } else {
+                query = type === 'top'
+                    ? `${queryBase} pushed:${new Date().toISOString().split('T')[0]}`
+                    : `${queryBase} created:>${recentDate} stars:>${category.newMinStars || 50}`;
+            }
         } else {
             query = type === 'top'
-                ? `${queryBase} pushed:${new Date().toISOString().split('T')[0]}`
-                : `${queryBase} created:>${recentDate} stars:>${category.newMinStars || 50}`;
+                ? 'stars:>10000 pushed:' + new Date().toISOString().split('T')[0]
+                : `stars:>1000 created:>${recentDate}`;
         }
-    } else {
-        query = type === 'top'
-            ? 'stars:>10000 pushed:' + new Date().toISOString().split('T')[0]
-            : `stars:>1000 created:>${recentDate}`;
+
+        const perPage = queryBase ? 100 : 10;
+        const sort = type === 'new' ? 'updated' : 'stars';
+        const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=${sort}&order=desc&per_page=${perPage}`;
+
+        try {
+            const data = await fetch(url);
+            for (const repo of data.items || []) {
+                if (!matchesCategory(repo, category)) continue;
+                reposByName.set(`${repo.owner.login}/${repo.name}`, {
+                    repo,
+                    trend: getTrendMetrics(repo)
+                });
+            }
+        } catch (e) {
+            console.error(`    失败: ${e.message}`);
+        }
+
+        if (index < queryBases.length - 1) await sleep(REQUEST_DELAY);
     }
 
-    const perPage = category.query ? 100 : 10;
-    const sort = type === 'new' ? 'updated' : 'stars';
-    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=${sort}&order=desc&per_page=${perPage}`;
+    const repos = [...reposByName.values()];
+    repos.sort(type === 'new'
+        ? (a, b) => b.trend.trendScore - a.trend.trendScore
+        : (a, b) => b.repo.stargazers_count - a.repo.stargazers_count);
 
-    try {
-        const data = await fetch(url);
-        const repos = (data.items || [])
-            .filter(repo => matchesCategory(repo, category))
-            .map(repo => ({ repo, trend: getTrendMetrics(repo) }));
-
-        if (type === 'new') {
-            repos.sort((a, b) => b.trend.trendScore - a.trend.trendScore);
-        }
-
-        return repos.slice(0, 10).map(({ repo, trend }) => ({
+    return repos.slice(0, 10).map(({ repo, trend }) => ({
             owner: repo.owner.login,
             name: repo.name,
             description: repo.description,
@@ -262,11 +325,7 @@ async function fetchCategory(category, type = 'top') {
             createdAt: repo.created_at,
             updatedAt: repo.pushed_at,
             starGrowthPerDay: trend.growthPerDay
-        }));
-    } catch (e) {
-        console.error(`    失败: ${e.message}`);
-        return [];
-    }
+    }));
 }
 
 function sleep(ms) {
@@ -281,10 +340,18 @@ async function main() {
     const result = {
         timestamp: Date.now(),
         date: new Date().toISOString().split('T')[0],
-        categories: {}
+        categories: ONLY_CATEGORY ? { ...(previousData?.categories || {}) } : {}
     };
 
-    for (const [key, cat] of Object.entries(categories)) {
+    const categoryEntries = ONLY_CATEGORY
+        ? Object.entries(categories).filter(([key]) => key === ONLY_CATEGORY)
+        : Object.entries(categories);
+
+    if (ONLY_CATEGORY && categoryEntries.length === 0) {
+        throw new Error(`未知分类: ${ONLY_CATEGORY}`);
+    }
+
+    for (const [key, cat] of categoryEntries) {
         console.log(`  获取 ${cat.name}...`);
 
         const topStars = await fetchCategory(cat, 'top');
@@ -301,7 +368,7 @@ async function main() {
     console.log(`\n✅ 数据已保存到 ${DATA_FILE}`);
 
     // 打印摘要
-    for (const [key, cat] of Object.entries(categories)) {
+    for (const [key, cat] of categoryEntries) {
         const data = result.categories[key];
         if (data && data.topStars.length > 0) {
             console.log(`\n${cat.name} Top 3:`);
