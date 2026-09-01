@@ -12,6 +12,22 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, 'data.json');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 const REQUEST_DELAY = GITHUB_TOKEN ? 1000 : 6500;
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+const EDUCATION_TOPIC_SIGNALS = new Set([
+    'curriculum', 'learn', 'learning', 'learn-to-code', 'teaching',
+    'teacher', 'teachers', 'student', 'students', 'student-tools',
+    'classroom', 'classroom-tools', 'course', 'courses', 'tutorial',
+    'tutorials', 'book', 'books', 'book-series', 'study', 'study-tools',
+    'edtech', 'elearning', 'e-learning', 'lms', 'school', 'university',
+    'pedagogy', 'flashcard', 'flashcards', 'quiz', 'quizzes', 'educational',
+    'educational-project', 'training-materials', 'certification', 'practice',
+    'interactive-learning', 'learning-by-doing', 'teaching-tool', 'kids',
+    'field-guide', 'textbook'
+]);
+
+const EDUCATION_TEXT_PATTERN =
+    /\b(education|educational|learn|learning|teach|teaching|teacher|student|classroom|course|curriculum|tutorial|textbook|study|training|practice|quiz|flashcard|school|university)\b/gi;
 
 // 领域配置
 const categories = {
@@ -22,7 +38,14 @@ const categories = {
     data: { name: '数据科学', keyword: 'data-science' },
     security: { name: '安全', keyword: 'security' },
     game: { name: '游戏开发', keyword: 'game' },
-    education: { name: '教育', keyword: 'education', newMinStars: 5 },
+    education: {
+        name: '教育',
+        keyword: 'education',
+        topMinStars: 5000,
+        newMinStars: 50,
+        recentDays: 30,
+        strictEducation: true
+    },
     all: { name: '全部', keyword: '' }
 };
 
@@ -67,26 +90,49 @@ function fetch(url) {
     });
 }
 
-async function fetchCategory(keyword, type = 'top', newMinStars = 50) {
+function isEducationRepository(repo) {
+    const topics = (repo.topics || []).map(topic => topic.toLowerCase());
+    const hasEducationTopic = topics.includes('education');
+    const hasSupportingTopic = topics.some(topic => EDUCATION_TOPIC_SIGNALS.has(topic));
+    const text = `${repo.name || ''} ${repo.description || ''}`;
+    const textSignals = new Set(
+        (text.match(EDUCATION_TEXT_PATTERN) || []).map(signal => signal.toLowerCase())
+    );
+
+    return hasEducationTopic && (hasSupportingTopic || textSignals.size >= 2);
+}
+
+async function fetchCategory(category, type = 'top') {
     const today = new Date().toISOString().split('T')[0];
-    const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+    const recentDays = category.recentDays || 7;
+    const recentDate = new Date(Date.now() - recentDays * DAY_MS).toISOString().split('T')[0];
+    const keyword = category.keyword;
 
     let query;
     if (keyword) {
-        query = type === 'top'
-            ? `topic:${keyword} pushed:${today}`
-            : `topic:${keyword} created:>${weekAgo} stars:>${newMinStars}`;
+        if (type === 'top' && category.topMinStars) {
+            query = `topic:${keyword} stars:>${category.topMinStars}`;
+        } else {
+            query = type === 'top'
+                ? `topic:${keyword} pushed:${today}`
+                : `topic:${keyword} created:>${recentDate} stars:>${category.newMinStars || 50}`;
+        }
     } else {
         query = type === 'top'
             ? `stars:>10000 pushed:${today}`
-            : `stars:>1000 created:>${weekAgo}`;
+            : `stars:>1000 created:>${recentDate}`;
     }
 
-    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=10`;
+    const perPage = category.strictEducation ? 100 : 10;
+    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=${perPage}`;
 
     try {
         const data = await fetch(url);
-        return (data.items || []).map(repo => ({
+        const repos = category.strictEducation
+            ? (data.items || []).filter(isEducationRepository)
+            : (data.items || []);
+
+        return repos.slice(0, 10).map(repo => ({
             owner: repo.owner.login,
             name: repo.name,
             description: repo.description,
@@ -119,10 +165,10 @@ async function main() {
     for (const [key, cat] of Object.entries(categories)) {
         console.log(`  获取 ${cat.name}...`);
 
-        const topStars = await fetchCategory(cat.keyword, 'top');
+        const topStars = await fetchCategory(cat, 'top');
         await sleep(REQUEST_DELAY);
 
-        const trending = await fetchCategory(cat.keyword, 'new', cat.newMinStars);
+        const trending = await fetchCategory(cat, 'new');
         await sleep(REQUEST_DELAY);
 
         result.categories[key] = { topStars, trending };
