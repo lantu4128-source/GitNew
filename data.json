@@ -1,6 +1,6 @@
 {
-  "timestamp": 1791787992847,
-  "date": "2026-10-12",
+  "timestamp": 1791875901984,
+  "date": "2026-10-13",
   "categories": {
     "llm": {
       "topStars": [
@@ -9,104 +9,104 @@
           "name": "ollama",
           "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
           "url": "https://github.com/ollama/ollama",
-          "stars": 182815,
-          "forks": 18224,
+          "stars": 182956,
+          "forks": 18244,
           "language": "Go",
           "createdAt": "2023-06-26T19:39:32Z",
-          "updatedAt": "2026-10-12T06:25:26Z",
-          "starGrowthPerDay": 133.27877364004274
+          "updatedAt": "2026-10-13T04:51:43Z",
+          "starGrowthPerDay": 138.5756999279173
         },
         {
           "owner": "huggingface",
           "name": "transformers",
           "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
           "url": "https://github.com/huggingface/transformers",
-          "stars": 167540,
-          "forks": 34845,
+          "stars": 167622,
+          "forks": 34854,
           "language": "Python",
           "createdAt": "2018-10-29T13:56:00Z",
-          "updatedAt": "2026-10-12T06:49:15Z",
-          "starGrowthPerDay": 157.1278513133508
+          "updatedAt": "2026-10-13T07:12:20Z",
+          "starGrowthPerDay": 80.57788427779309
         },
         {
           "owner": "ggml-org",
           "name": "llama.cpp",
           "description": "LLM inference in C/C++",
           "url": "https://github.com/ggml-org/llama.cpp",
-          "stars": 130894,
-          "forks": 24329,
+          "stars": 130987,
+          "forks": 24351,
           "language": "C++",
           "createdAt": "2023-03-10T18:58:00Z",
-          "updatedAt": "2026-10-12T06:38:02Z",
-          "starGrowthPerDay": 104.42701236734909
+          "updatedAt": "2026-10-13T03:37:20Z",
+          "starGrowthPerDay": 91.39330880459401
         },
         {
           "owner": "vllm-project",
           "name": "vllm",
           "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
           "url": "https://github.com/vllm-project/vllm",
-          "stars": 93609,
-          "forks": 23269,
+          "stars": 93692,
+          "forks": 23302,
           "language": "Python",
           "createdAt": "2023-02-09T11:23:20Z",
-          "updatedAt": "2026-10-12T06:47:59Z",
-          "starGrowthPerDay": 67.62892229504513
+          "updatedAt": "2026-10-13T07:12:28Z",
+          "starGrowthPerDay": 81.5660712987237
         },
         {
           "owner": "microsoft",
           "name": "BitNet",
           "description": "Official inference framework for 1-bit LLMs",
           "url": "https://github.com/microsoft/BitNet",
-          "stars": 40715,
-          "forks": 3794,
+          "stars": 41029,
+          "forks": 3819,
           "language": "C++",
           "createdAt": "2024-08-05T09:07:38Z",
           "updatedAt": "2026-07-27T05:52:06Z",
-          "starGrowthPerDay": 126.30695781574605
+          "starGrowthPerDay": 308.5752576843282
+        },
+        {
+          "owner": "lyogavin",
+          "name": "airllm",
+          "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+          "url": "https://github.com/lyogavin/airllm",
+          "stars": 37776,
+          "forks": 3890,
+          "language": "Jupyter Notebook",
+          "createdAt": "2023-06-12T16:28:41Z",
+          "updatedAt": "2026-10-13T06:24:34Z",
+          "starGrowthPerDay": 990.5855405917288
         },
         {
           "owner": "huggingface",
           "name": "pytorch-image-models",
           "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more",
           "url": "https://github.com/huggingface/pytorch-image-models",
-          "stars": 37209,
+          "stars": 37210,
           "forks": 5215,
           "language": "Python",
           "createdAt": "2019-02-02T05:51:12Z",
           "updatedAt": "2026-10-11T16:35:18Z",
-          "starGrowthPerDay": 0.9944633025431073
-        },
-        {
-          "owner": "lyogavin",
-          "name": "airllm",
-          "description": "AirLLM 70B inference with single 4GB GPU",
-          "url": "https://github.com/lyogavin/airllm",
-          "stars": 36768,
-          "forks": 3830,
-          "language": "Jupyter Notebook",
-          "createdAt": "2023-06-12T16:28:41Z",
-          "updatedAt": "2026-10-12T06:31:50Z",
-          "starGrowthPerDay": 763.809004744039
+          "starGrowthPerDay": 0.9826401044337165
         },
         {
           "owner": "QwenLM",
           "name": "Qwen3",
           "description": "Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
           "url": "https://github.com/QwenLM/Qwen3",
-          "stars": 27665,
+          "stars": 27666,
           "forks": 2071,
           "language": "Python",
           "createdAt": "2024-02-05T05:45:08Z",
           "updatedAt": "2026-01-09T03:05:47Z",
-          "starGrowthPerDay": 1.9891618765430827
+          "starGrowthPerDay": 0.9827617224136737
         },
         {
           "owner": "Hannibal046",
           "name": "Awesome-LLM",
           "description": "Awesome-LLM: a curated list of Large Language Model",
           "url": "https://github.com/Hannibal046/Awesome-LLM",
-          "stars": 27450,
-          "forks": 2735,
+          "stars": 27448,
+          "forks": 2736,
           "language": null,
           "createdAt": "2023-02-17T14:12:21Z",
           "updatedAt": "2025-07-31T02:38:24Z",
@@ -117,26 +117,122 @@
           "name": "omlx",
           "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
           "url": "https://github.com/jundot/omlx",
-          "stars": 22722,
-          "forks": 2004,
+          "stars": 22746,
+          "forks": 2008,
           "language": "Python",
           "createdAt": "2026-02-13T14:13:27Z",
-          "updatedAt": "2026-10-12T06:04:36Z",
-          "starGrowthPerDay": 19.890859498542685
+          "updatedAt": "2026-10-13T04:58:10Z",
+          "starGrowthPerDay": 23.58537001408878
         }
       ],
       "trending": [
+        {
+          "owner": "Yamz-Labs",
+          "name": "kyojin",
+          "description": "Kyojin: the Yamz inference engine for AMD Strix Halo (ROCm, gfx1151), built on ExLlamaV3. Runs 300B-class MoE models on one 128 GB mini PC.",
+          "url": "https://github.com/Yamz-Labs/kyojin",
+          "stars": 132,
+          "forks": 17,
+          "language": "Python",
+          "createdAt": "2026-10-02T20:45:48Z",
+          "updatedAt": "2026-10-13T04:41:22Z",
+          "starGrowthPerDay": 27.512065243807367
+        },
         {
           "owner": "lithos-ai",
           "name": "lithos-metal",
           "description": "lithos-metal: high-performance LLM inference kernels and serving for Apple silicon.",
           "url": "https://github.com/lithos-ai/lithos-metal",
-          "stars": 184,
-          "forks": 12,
+          "stars": 191,
+          "forks": 16,
           "language": "Python",
           "createdAt": "2026-10-05T15:23:30Z",
-          "updatedAt": "2026-10-11T20:31:14Z",
-          "starGrowthPerDay": 8.949594619387701
+          "updatedAt": "2026-10-12T14:24:23Z",
+          "starGrowthPerDay": 6.878016310951842
+        },
+        {
+          "owner": "prabanta-dev",
+          "name": "janas",
+          "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than your RAM, pure C, CPU or GPU.",
+          "url": "https://github.com/prabanta-dev/janas",
+          "stars": 146,
+          "forks": 10,
+          "language": "C",
+          "createdAt": "2026-09-20T09:55:09Z",
+          "updatedAt": "2026-10-12T14:31:32Z",
+          "starGrowthPerDay": 6.3779523055155165
+        },
+        {
+          "owner": "ShadowSafin",
+          "name": "Synapass",
+          "description": "AI inference gateway and control plane for multi-provider routing, policies, caching, tools, and observability.",
+          "url": "https://github.com/ShadowSafin/Synapass",
+          "stars": 93,
+          "forks": 0,
+          "language": "Go",
+          "createdAt": "2026-10-01T03:59:38Z",
+          "updatedAt": "2026-10-11T15:13:34Z",
+          "starGrowthPerDay": 4.912868793537029
+        },
+        {
+          "owner": "HITsz-TMG",
+          "name": "JevEmbed",
+          "description": "Meet JevEmbed — turn embeddings into decisions. Choose, score, and judge with your choice of embedding model.",
+          "url": "https://github.com/HITsz-TMG/JevEmbed",
+          "stars": 70,
+          "forks": 5,
+          "language": "Python",
+          "createdAt": "2026-09-22T05:57:22Z",
+          "updatedAt": "2026-10-12T11:29:12Z",
+          "starGrowthPerDay": 3.3243912028730933
+        },
+        {
+          "owner": "zzzz7788990213-ops",
+          "name": "EvoVLM",
+          "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+          "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+          "stars": 231,
+          "forks": 1,
+          "language": "Python",
+          "createdAt": "2026-10-02T01:03:55Z",
+          "updatedAt": "2026-10-02T01:04:42Z",
+          "starGrowthPerDay": 0
+        },
+        {
+          "owner": "EmilianoMJ11",
+          "name": "transformers-training-recipes",
+          "description": "Transformers Trainer Examples 2026: Production-Ready Fine-Tuning Recipes for Modern NLP Models",
+          "url": "https://github.com/EmilianoMJ11/transformers-training-recipes",
+          "stars": 53,
+          "forks": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-21T22:43:14Z",
+          "updatedAt": "2026-10-13T02:30:59Z",
+          "starGrowthPerDay": 2.481502078395906
+        },
+        {
+          "owner": "STEAM-DROPS",
+          "name": "finetune-lab-notes",
+          "description": "Fine-Tuning Transformers in 2026: Hands-On LLM Training, LoRA, and PEFT Guide",
+          "url": "https://github.com/STEAM-DROPS/finetune-lab-notes",
+          "stars": 53,
+          "forks": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-21T22:08:29Z",
+          "updatedAt": "2026-10-13T04:27:00Z",
+          "starGrowthPerDay": 2.478703175236306
+        },
+        {
+          "owner": "modelsphere",
+          "name": "modelsphere",
+          "description": "ModelSphere is an open-source LLM inference infrastructure designed to make production-grade model serving simple, efficient, and continuously optimized.",
+          "url": "https://github.com/modelsphere/modelsphere",
+          "stars": 58,
+          "forks": 5,
+          "language": "Shell",
+          "createdAt": "2026-09-27T14:44:06Z",
+          "updatedAt": "2026-10-13T07:14:29Z",
+          "starGrowthPerDay": 1.9651475174148119
         },
         {
           "owner": "Dreamer-Toby",
@@ -148,102 +244,6 @@
           "language": "Python",
           "createdAt": "2026-09-29T16:10:41Z",
           "updatedAt": "2026-10-12T04:10:54Z",
-          "starGrowthPerDay": 8.007558546520027
-        },
-        {
-          "owner": "Yamz-Labs",
-          "name": "kyojin",
-          "description": "Kyojin: the Yamz inference engine for AMD Strix Halo (ROCm, gfx1151), built on ExLlamaV3. Runs 300B-class MoE models on one 128 GB mini PC.",
-          "url": "https://github.com/Yamz-Labs/kyojin",
-          "stars": 104,
-          "forks": 10,
-          "language": "Python",
-          "createdAt": "2026-10-02T20:45:48Z",
-          "updatedAt": "2026-10-11T17:29:50Z",
-          "starGrowthPerDay": 5.966396412925135
-        },
-        {
-          "owner": "ShadowSafin",
-          "name": "Synapass",
-          "description": "AI inference gateway and control plane for multi-provider routing, policies, caching, tools, and observability.",
-          "url": "https://github.com/ShadowSafin/Synapass",
-          "stars": 88,
-          "forks": 0,
-          "language": "Go",
-          "createdAt": "2026-10-01T03:59:38Z",
-          "updatedAt": "2026-10-11T15:13:34Z",
-          "starGrowthPerDay": 6.960795815079323
-        },
-        {
-          "owner": "modelsphere",
-          "name": "modelsphere",
-          "description": "ModelSphere is an open-source LLM inference infrastructure designed to make production-grade model serving simple, efficient, and continuously optimized.",
-          "url": "https://github.com/modelsphere/modelsphere",
-          "stars": 56,
-          "forks": 5,
-          "language": "Shell",
-          "createdAt": "2026-09-27T14:44:06Z",
-          "updatedAt": "2026-10-12T01:55:37Z",
-          "starGrowthPerDay": 3.8164712246998733
-        },
-        {
-          "owner": "zzzz7788990213-ops",
-          "name": "EvoVLM",
-          "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-          "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-          "stars": 246,
-          "forks": 3,
-          "language": "Python",
-          "createdAt": "2026-10-02T01:03:55Z",
-          "updatedAt": "2026-10-02T01:04:42Z",
-          "starGrowthPerDay": 0
-        },
-        {
-          "owner": "SAGAR-TAMANG",
-          "name": "sarvam-jev",
-          "description": "Generation-free typed decisions on Indic LLMs. An open Jev-style inference engine on sarvam-1: constrained logit readout instead of autoregressive JSON. Runs client-side in the browser.",
-          "url": "https://github.com/SAGAR-TAMANG/sarvam-jev",
-          "stars": 60,
-          "forks": 10,
-          "language": "Python",
-          "createdAt": "2026-09-18T06:42:31Z",
-          "updatedAt": "2026-09-18T16:07:06Z",
-          "starGrowthPerDay": 0.9943994021541891
-        },
-        {
-          "owner": "gameplayerroblox9-cmyk",
-          "name": "RoNet-BPE-Tensor-Forge",
-          "description": "RoNet 2026: Build Transformer Models and Byte-Level BPE Tokenizers in Pure Tensors",
-          "url": "https://github.com/gameplayerroblox9-cmyk/RoNet-BPE-Tensor-Forge",
-          "stars": 70,
-          "forks": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-22T21:08:43Z",
-          "updatedAt": "2026-10-12T02:13:59Z",
-          "starGrowthPerDay": 0
-        },
-        {
-          "owner": "ikermoel",
-          "name": "open-alternative-jev",
-          "description": "Open-source alternative to TypeSafe's Jev: a System One style model layer that gives typed, calibrated decisions from any open-weights LLM in one forward pass (HF + vLLM), with honest benchmarks",
-          "url": "https://github.com/ikermoel/open-alternative-jev",
-          "stars": 67,
-          "forks": 13,
-          "language": "Python",
-          "createdAt": "2026-09-18T05:20:56Z",
-          "updatedAt": "2026-09-25T03:07:21Z",
-          "starGrowthPerDay": 0
-        },
-        {
-          "owner": "Tranvanviet27",
-          "name": "NLP-LLM-Fine-Tuning-Studio",
-          "description": "Best Open Source NLP LLM Fine-Tuning Trainer Framework 2026",
-          "url": "https://github.com/Tranvanviet27/NLP-LLM-Fine-Tuning-Studio",
-          "stars": 53,
-          "forks": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-21T22:00:45Z",
-          "updatedAt": "2026-10-12T06:46:18Z",
           "starGrowthPerDay": 0
         }
       ]
@@ -255,71 +255,71 @@
           "name": "superpowers",
           "description": "An agentic skills framework & software development methodology that works.",
           "url": "https://github.com/obra/superpowers",
-          "stars": 297862,
-          "forks": 26608,
+          "stars": 298342,
+          "forks": 26663,
           "language": "Shell",
           "createdAt": "2025-10-09T19:45:18Z",
           "updatedAt": "2026-10-10T03:03:30Z",
-          "starGrowthPerDay": 531.920843218817
+          "starGrowthPerDay": 471.56180537673697
         },
         {
           "owner": "mattpocock",
           "name": "skills",
           "description": "Skills for Real Engineers. Straight from my .agents directory.",
           "url": "https://github.com/mattpocock/skills",
-          "stars": 286720,
-          "forks": 24054,
+          "stars": 288437,
+          "forks": 24213,
           "language": "Shell",
           "createdAt": "2026-02-03T11:15:53Z",
-          "updatedAt": "2026-10-09T10:57:08Z",
-          "starGrowthPerDay": 1815.490578911327
+          "updatedAt": "2026-10-12T08:46:48Z",
+          "starGrowthPerDay": 1686.815874649703
         },
         {
           "owner": "affaan-m",
           "name": "ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
           "url": "https://github.com/affaan-m/ECC",
-          "stars": 277391,
-          "forks": 41373,
+          "stars": 278101,
+          "forks": 41445,
           "language": "JavaScript",
           "createdAt": "2026-01-18T00:51:51Z",
-          "updatedAt": "2026-10-12T06:22:31Z",
-          "starGrowthPerDay": 730.7500456948922
+          "updatedAt": "2026-10-12T14:45:46Z",
+          "starGrowthPerDay": 697.4936641255555
         },
         {
           "owner": "NousResearch",
           "name": "hermes-agent",
           "description": "The agent that grows with you",
           "url": "https://github.com/NousResearch/hermes-agent",
-          "stars": 252881,
-          "forks": 54771,
+          "stars": 253241,
+          "forks": 54893,
           "language": "Python",
           "createdAt": "2025-07-22T22:22:28Z",
-          "updatedAt": "2026-10-12T06:39:13Z",
-          "starGrowthPerDay": 271.42876672661134
+          "updatedAt": "2026-10-13T07:17:50Z",
+          "starGrowthPerDay": 352.68893360468456
         },
         {
           "owner": "anomalyco",
           "name": "opencode",
           "description": "The open source coding agent.",
           "url": "https://github.com/anomalyco/opencode",
-          "stars": 212782,
-          "forks": 28479,
+          "stars": 213023,
+          "forks": 28548,
           "language": "TypeScript",
           "createdAt": "2025-04-30T20:08:00Z",
-          "updatedAt": "2026-10-12T06:06:44Z",
-          "starGrowthPerDay": 177.95121239964269
+          "updatedAt": "2026-10-13T07:17:10Z",
+          "starGrowthPerDay": 235.75325438631114
         },
         {
           "owner": "ultraworkers",
           "name": "claw-code",
           "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
           "url": "https://github.com/ultraworkers/claw-code",
-          "stars": 194969,
-          "forks": 108067,
+          "stars": 194937,
+          "forks": 108050,
           "language": "Rust",
           "createdAt": "2026-03-31T08:58:08Z",
-          "updatedAt": "2026-10-11T20:40:00Z",
+          "updatedAt": "2026-10-13T07:12:25Z",
           "starGrowthPerDay": 0
         },
         {
@@ -327,48 +327,48 @@
           "name": "firecrawl",
           "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
           "url": "https://github.com/firecrawl/firecrawl",
-          "stars": 190604,
-          "forks": 10124,
+          "stars": 190953,
+          "forks": 10136,
           "language": "TypeScript",
           "createdAt": "2024-04-15T21:02:29Z",
-          "updatedAt": "2026-10-12T06:38:32Z",
-          "starGrowthPerDay": 329.0949515989317
+          "updatedAt": "2026-10-13T04:48:27Z",
+          "starGrowthPerDay": 342.86472932600253
         },
         {
           "owner": "anthropics",
           "name": "skills",
           "description": "Public repository for Agent Skills",
           "url": "https://github.com/anthropics/skills",
-          "stars": 180584,
-          "forks": 21405,
+          "stars": 180800,
+          "forks": 21424,
           "language": "Python",
           "createdAt": "2025-09-22T15:53:31Z",
           "updatedAt": "2026-10-09T18:45:52Z",
-          "starGrowthPerDay": 202.8258916198854
+          "starGrowthPerDay": 212.20281241953165
+        },
+        {
+          "owner": "morluto",
+          "name": "rea",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "url": "https://github.com/morluto/rea",
+          "stars": 174802,
+          "forks": 41911,
+          "language": "TypeScript",
+          "createdAt": "2026-04-14T00:51:32Z",
+          "updatedAt": "2026-10-13T07:16:50Z",
+          "starGrowthPerDay": 959.0327546612125
         },
         {
           "owner": "DietrichGebert",
           "name": "ponytail",
           "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
           "url": "https://github.com/DietrichGebert/ponytail",
-          "stars": 161302,
-          "forks": 8703,
+          "stars": 162069,
+          "forks": 8748,
           "language": "JavaScript",
           "createdAt": "2026-06-12T00:52:37Z",
-          "updatedAt": "2026-10-10T04:19:53Z",
-          "starGrowthPerDay": 674.0978162660897
-        },
-        {
-          "owner": "msitarzewski",
-          "name": "agency-agents",
-          "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-          "url": "https://github.com/msitarzewski/agency-agents",
-          "stars": 159215,
-          "forks": 25725,
-          "language": "Shell",
-          "createdAt": "2025-10-13T12:12:29Z",
-          "updatedAt": "2026-10-07T16:45:46Z",
-          "starGrowthPerDay": 349.9740875009787
+          "updatedAt": "2026-10-13T01:46:28Z",
+          "starGrowthPerDay": 753.516468174911
         }
       ],
       "trending": [
@@ -377,120 +377,120 @@
           "name": "magpie",
           "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
           "url": "https://github.com/yetone/magpie",
-          "stars": 9787,
-          "forks": 645,
+          "stars": 10819,
+          "forks": 719,
           "language": "Go",
           "createdAt": "2026-09-23T16:22:35Z",
-          "updatedAt": "2026-10-12T06:47:50Z",
-          "starGrowthPerDay": 1030.80681956908
-        },
-        {
-          "owner": "wheresryan22",
-          "name": "anatomy",
-          "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-          "url": "https://github.com/wheresryan22/anatomy",
-          "stars": 4086,
-          "forks": 322,
-          "language": "JavaScript",
-          "createdAt": "2026-10-08T10:12:49Z",
-          "updatedAt": "2026-10-12T01:05:12Z",
-          "starGrowthPerDay": 1057.9989493926198
-        },
-        {
-          "owner": "Louis-CFM",
-          "name": "coucou",
-          "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
-          "url": "https://github.com/Louis-CFM/coucou",
-          "stars": 4866,
-          "forks": 813,
-          "language": "Swift",
-          "createdAt": "2026-09-27T21:54:12Z",
-          "updatedAt": "2026-10-11T23:12:48Z",
-          "starGrowthPerDay": 140.1479717036938
-        },
-        {
-          "owner": "CopilotKit",
-          "name": "openmuse",
-          "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
-          "url": "https://github.com/CopilotKit/openmuse",
-          "stars": 4712,
-          "forks": 641,
-          "language": "TypeScript",
-          "createdAt": "2026-09-15T16:05:44Z",
-          "updatedAt": "2026-10-12T05:35:29Z",
-          "starGrowthPerDay": 101.39083471171278
-        },
-        {
-          "owner": "edenfunf",
-          "name": "reelmimic",
-          "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-          "url": "https://github.com/edenfunf/reelmimic",
-          "stars": 2371,
-          "forks": 233,
-          "language": "JavaScript",
-          "createdAt": "2026-09-28T19:14:59Z",
-          "updatedAt": "2026-10-11T09:08:57Z",
-          "starGrowthPerDay": 191.8603583538024
+          "updatedAt": "2026-10-13T07:10:29Z",
+          "starGrowthPerDay": 1013.6160204278333
         },
         {
           "owner": "QingYunA",
           "name": "answer-me-with-html",
           "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
           "url": "https://github.com/QingYunA/answer-me-with-html",
-          "stars": 2937,
-          "forks": 200,
+          "stars": 3211,
+          "forks": 216,
           "language": "JavaScript",
           "createdAt": "2026-10-02T09:57:40Z",
-          "updatedAt": "2026-10-12T06:30:33Z",
-          "starGrowthPerDay": 126.24152949399534
+          "updatedAt": "2026-10-13T07:14:38Z",
+          "starGrowthPerDay": 269.11898216785494
         },
         {
-          "owner": "mcncarl",
-          "name": "jianying-headless",
-          "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
-          "url": "https://github.com/mcncarl/jianying-headless",
-          "stars": 3047,
-          "forks": 1953,
+          "owner": "Louis-CFM",
+          "name": "coucou",
+          "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
+          "url": "https://github.com/Louis-CFM/coucou",
+          "stars": 5005,
+          "forks": 838,
+          "language": "Swift",
+          "createdAt": "2026-09-27T21:54:12Z",
+          "updatedAt": "2026-10-12T20:31:09Z",
+          "starGrowthPerDay": 136.5144495013561
+        },
+        {
+          "owner": "Fei2411",
+          "name": "DeepSeek-Bot",
+          "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+          "url": "https://github.com/Fei2411/DeepSeek-Bot",
+          "stars": 1489,
+          "forks": 146,
+          "language": "JavaScript",
+          "createdAt": "2026-10-07T15:37:36Z",
+          "updatedAt": "2026-10-13T07:07:20Z",
+          "starGrowthPerDay": 411.5658723106695
+        },
+        {
+          "owner": "feder-cr",
+          "name": "invisible_playwright_mcp",
+          "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
+          "url": "https://github.com/feder-cr/invisible_playwright_mcp",
+          "stars": 2764,
+          "forks": 471,
           "language": "Python",
-          "createdAt": "2026-09-15T11:51:15Z",
-          "updatedAt": "2026-10-12T01:05:06Z",
-          "starGrowthPerDay": 113.72097011832791
+          "createdAt": "2026-09-29T23:06:00Z",
+          "updatedAt": "2026-10-12T22:26:12Z",
+          "starGrowthPerDay": 207.15671804194264
         },
         {
-          "owner": "kaankiziltug",
-          "name": "logo-design-skill",
-          "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
-          "url": "https://github.com/kaankiziltug/logo-design-skill",
-          "stars": 2795,
-          "forks": 203,
-          "language": "HTML",
-          "createdAt": "2026-09-26T08:23:34Z",
-          "updatedAt": "2026-09-30T18:16:50Z",
-          "starGrowthPerDay": 120.28133157315575
-        },
-        {
-          "owner": "rociiu",
-          "name": "talorys",
-          "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
-          "url": "https://github.com/rociiu/talorys",
-          "stars": 785,
-          "forks": 61,
+          "owner": "omnirush-ai",
+          "name": "omnirush-gui",
+          "description": "A desktop coding agent with free access to frontier models.",
+          "url": "https://github.com/omnirush-ai/omnirush-gui",
+          "stars": 3262,
+          "forks": 68,
           "language": "TypeScript",
-          "createdAt": "2026-10-10T09:46:56Z",
-          "updatedAt": "2026-10-12T00:32:37Z",
-          "starGrowthPerDay": 417.5571554443317
+          "createdAt": "2026-09-21T05:26:26Z",
+          "updatedAt": "2026-10-13T07:11:43Z",
+          "starGrowthPerDay": 147.74573390987285
+        },
+        {
+          "owner": "CopilotKit",
+          "name": "openmuse",
+          "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+          "url": "https://github.com/CopilotKit/openmuse",
+          "stars": 4805,
+          "forks": 658,
+          "language": "TypeScript",
+          "createdAt": "2026-09-15T16:05:44Z",
+          "updatedAt": "2026-10-13T00:37:05Z",
+          "starGrowthPerDay": 91.34330312808069
+        },
+        {
+          "owner": "dzhng",
+          "name": "jevgrep",
+          "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+          "url": "https://github.com/dzhng/jevgrep",
+          "stars": 2644,
+          "forks": 194,
+          "language": "TypeScript",
+          "createdAt": "2026-09-26T04:06:56Z",
+          "updatedAt": "2026-10-12T08:39:00Z",
+          "starGrowthPerDay": 154.3159438019153
         },
         {
           "owner": "zai-org",
           "name": "ZCode",
           "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
           "url": "https://github.com/zai-org/ZCode",
-          "stars": 7698,
-          "forks": 2353,
+          "stars": 7743,
+          "forks": 2376,
           "language": "TypeScript",
           "createdAt": "2026-09-20T12:01:16Z",
           "updatedAt": "2026-10-10T11:02:50Z",
-          "starGrowthPerDay": 38.76433215294393
+          "starGrowthPerDay": 44.19532537813687
+        },
+        {
+          "owner": "feitangyuan",
+          "name": "onetake",
+          "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding agent.",
+          "url": "https://github.com/feitangyuan/onetake",
+          "stars": 2243,
+          "forks": 145,
+          "language": "Python",
+          "createdAt": "2026-09-26T05:35:17Z",
+          "updatedAt": "2026-10-13T03:31:43Z",
+          "starGrowthPerDay": 131.38221598492413
         }
       ]
     },
@@ -501,72 +501,72 @@
           "name": "OpenMAIC",
           "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
           "url": "https://github.com/THU-MAIC/OpenMAIC",
-          "stars": 40439,
-          "forks": 6266,
+          "stars": 40582,
+          "forks": 6278,
           "language": "TypeScript",
           "createdAt": "2026-03-11T10:13:16Z",
-          "updatedAt": "2026-10-12T05:35:58Z",
-          "starGrowthPerDay": 92.42962470238776
+          "updatedAt": "2026-10-13T07:08:14Z",
+          "starGrowthPerDay": 140.43031539433574
         },
         {
           "owner": "huggingface",
           "name": "agents-course",
           "description": "This repository contains the Hugging Face Agents Course. ",
           "url": "https://github.com/huggingface/agents-course",
-          "stars": 33480,
-          "forks": 2402,
+          "stars": 33528,
+          "forks": 2408,
           "language": "MDX",
           "createdAt": "2025-01-16T19:50:22Z",
           "updatedAt": "2026-10-06T09:33:07Z",
-          "starGrowthPerDay": 54.657923637957786
+          "starGrowthPerDay": 47.13301759939513
         },
         {
           "owner": "jamwithai",
           "name": "production-agentic-rag-course",
           "description": null,
           "url": "https://github.com/jamwithai/production-agentic-rag-course",
-          "stars": 9731,
-          "forks": 2111,
+          "stars": 9746,
+          "forks": 2116,
           "language": "Python",
           "createdAt": "2025-08-06T19:52:50Z",
           "updatedAt": "2026-06-05T07:23:49Z",
-          "starGrowthPerDay": 23.850730314745213
+          "starGrowthPerDay": 14.729067999810978
         },
         {
           "owner": "WangRongsheng",
           "name": "awesome-LLM-resources",
           "description": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources. ",
           "url": "https://github.com/WangRongsheng/awesome-LLM-resources",
-          "stars": 9014,
-          "forks": 1017,
+          "stars": 9012,
+          "forks": 1020,
           "language": null,
           "createdAt": "2024-04-19T03:31:13Z",
           "updatedAt": "2026-10-07T12:48:31Z",
-          "starGrowthPerDay": 0.9937804297810506
+          "starGrowthPerDay": 0
         },
         {
           "owner": "ed-donner",
           "name": "agents",
           "description": "Repo for the Complete Agentic AI Engineering Course",
           "url": "https://github.com/ed-donner/agents",
-          "stars": 6359,
-          "forks": 5510,
+          "stars": 6369,
+          "forks": 5517,
           "language": "Jupyter Notebook",
           "createdAt": "2025-03-21T15:53:02Z",
           "updatedAt": "2026-10-08T20:51:09Z",
-          "starGrowthPerDay": 5.962682578686303
+          "starGrowthPerDay": 9.819378666540652
         },
         {
           "owner": "TarrySingh",
           "name": "Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
           "description": "Synapsa Commons: free, hands-on AI courses that run anywhere (Colab, Kaggle, Binder, Codespaces, Jupyter). EU AI Act conformity evidence, model validation, predictive maintenance, document extraction, retrieval and RAG, AI agents and MCP, a simulated humanoid. Every lesson autograded. From the team building Synapsa.",
           "url": "https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
-          "stars": 4010,
+          "stars": 4011,
           "forks": 1622,
           "language": "Python",
           "createdAt": "2017-07-13T19:46:01Z",
           "updatedAt": "2026-10-01T22:56:41Z",
-          "starGrowthPerDay": 0
+          "starGrowthPerDay": 0.9819378666540651
         },
         {
           "owner": "decodingai-magazine",
@@ -578,69 +578,69 @@
           "language": "Jupyter Notebook",
           "createdAt": "2024-12-30T14:57:41Z",
           "updatedAt": "2026-04-06T12:36:33Z",
-          "starGrowthPerDay": 0.9937804297810506
+          "starGrowthPerDay": 0
         },
         {
           "owner": "datawhalechina",
           "name": "deepagents-in-action",
           "description": "📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南",
           "url": "https://github.com/datawhalechina/deepagents-in-action",
-          "stars": 2672,
-          "forks": 277,
+          "stars": 2685,
+          "forks": 278,
           "language": "Jupyter Notebook",
           "createdAt": "2026-05-05T08:14:44Z",
-          "updatedAt": "2026-10-11T01:44:18Z",
-          "starGrowthPerDay": 12.919145587153658
+          "updatedAt": "2026-10-12T13:49:53Z",
+          "starGrowthPerDay": 12.765192266502847
         },
         {
           "owner": "JuneYaooo",
           "name": "nihaisha-nishi-tcm",
           "description": "倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 |  An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing.",
           "url": "https://github.com/JuneYaooo/nihaisha-nishi-tcm",
-          "stars": 2165,
+          "stars": 2169,
           "forks": 470,
           "language": "Python",
           "createdAt": "2026-05-27T02:01:16Z",
           "updatedAt": "2026-09-16T12:37:32Z",
-          "starGrowthPerDay": 0.9937804297810506
+          "starGrowthPerDay": 3.9277514666162605
         },
         {
           "owner": "neural-maze",
           "name": "agentic-patterns-course",
           "description": "Implementing the 4 agentic patterns from scratch",
           "url": "https://github.com/neural-maze/agentic-patterns-course",
-          "stars": 1750,
+          "stars": 1751,
           "forks": 342,
           "language": "Jupyter Notebook",
           "createdAt": "2024-07-10T06:23:35Z",
           "updatedAt": "2025-03-18T16:37:23Z",
-          "starGrowthPerDay": 0.9937804297810506
+          "starGrowthPerDay": 0.9819378666540651
         }
       ],
       "trending": [
-        {
-          "owner": "heaven999b",
-          "name": "hello-agent-system",
-          "description": "👋 Hello Agent System — learn enterprise AI agent system design by building every production layer from scratch. 17 bilingual lessons (EN/中文) with tested exercises: tools, architectures, reliability, security, evals, distributed execution, cost, RAG, release ops. 企业级 Agent 系统设计训练营",
-          "url": "https://github.com/heaven999b/hello-agent-system",
-          "stars": 152,
-          "forks": 2,
-          "language": "Python",
-          "createdAt": "2026-09-27T01:18:37Z",
-          "updatedAt": "2026-09-28T16:08:10Z",
-          "starGrowthPerDay": 12.916267158772765
-        },
         {
           "owner": "amitshekhariitbhu",
           "name": "ai-engineering-course",
           "description": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents, LLM Inference, Evaluation, AI Safety, and AI System Design.",
           "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
-          "stars": 526,
-          "forks": 99,
+          "stars": 529,
+          "forks": 101,
           "language": "Markdown",
           "createdAt": "2026-09-23T08:04:42Z",
           "updatedAt": "2026-10-12T02:35:25Z",
-          "starGrowthPerDay": 2.980677036639869
+          "starGrowthPerDay": 2.9451438327801873
+        },
+        {
+          "owner": "heaven999b",
+          "name": "hello-agent-system",
+          "description": "👋 Hello Agent System — learn enterprise AI agent system design by building every production layer from scratch. 17 bilingual lessons (EN/中文) with tested exercises: tools, architectures, reliability, security, evals, distributed execution, cost, RAG, release ops. 企业级 Agent 系统设计训练营",
+          "url": "https://github.com/heaven999b/hello-agent-system",
+          "stars": 161,
+          "forks": 3,
+          "language": "Python",
+          "createdAt": "2026-09-27T01:18:37Z",
+          "updatedAt": "2026-09-28T16:08:10Z",
+          "starGrowthPerDay": 8.835431498340562
         },
         {
           "owner": "RLE-Bench",
@@ -664,7 +664,7 @@
           "language": "Jupyter Notebook",
           "createdAt": "2026-09-23T04:47:58Z",
           "updatedAt": "2026-09-23T06:15:35Z",
-          "starGrowthPerDay": 0.9935590122132896
+          "starGrowthPerDay": 0
         },
         {
           "owner": "speechlab0210",
@@ -679,6 +679,18 @@
           "starGrowthPerDay": 0
         },
         {
+          "owner": "TechWithMala",
+          "name": "agentic-ai-full-course",
+          "description": "Source code and hands-on projects from the Agentic AI Full Course by Tech With Mala.",
+          "url": "https://github.com/TechWithMala/agentic-ai-full-course",
+          "stars": 6,
+          "forks": 6,
+          "language": "Jupyter Notebook",
+          "createdAt": "2026-10-06T18:50:12Z",
+          "updatedAt": "2026-10-06T19:31:39Z",
+          "starGrowthPerDay": 0.9817146109267291
+        },
+        {
           "owner": "venkynaidu",
           "name": "resume-career-agent",
           "description": "LangChain and Agentic AI Student Resume Analyzer and Career Advisor",
@@ -691,52 +703,40 @@
           "starGrowthPerDay": 0
         },
         {
-          "owner": "TechWithMala",
-          "name": "agentic-ai-full-course",
-          "description": "Source code and hands-on projects from the Agentic AI Full Course by Tech With Mala.",
-          "url": "https://github.com/TechWithMala/agentic-ai-full-course",
-          "stars": 5,
-          "forks": 5,
-          "language": "Jupyter Notebook",
-          "createdAt": "2026-10-06T18:50:12Z",
-          "updatedAt": "2026-10-06T19:31:39Z",
-          "starGrowthPerDay": 0.9935590122132896
-        },
-        {
-          "owner": "SunnyAgrwl05",
-          "name": "rural-guardian-intelligence-platform",
-          "description": "AI-powered multi-agent platform for rural safety, disaster response, agriculture, health, education, and community intelligence.",
-          "url": "https://github.com/SunnyAgrwl05/rural-guardian-intelligence-platform",
+          "owner": "coachmanjeet",
+          "name": "AI-Agent-Evals-Course",
+          "description": "Learn AI Evals with Manjeet",
+          "url": "https://github.com/coachmanjeet/AI-Agent-Evals-Course",
           "stars": 6,
-          "forks": 5,
-          "language": "HTML",
-          "createdAt": "2026-09-24T17:50:34Z",
-          "updatedAt": "2026-09-25T08:51:19Z",
-          "starGrowthPerDay": 0.3419872349939662
-        },
-        {
-          "owner": "sajal2692",
-          "name": "sandboxing-ai-agent-oreilly-course",
-          "description": "Companion repository for the Sandboxing an AI Agent live course on O’Reilly.",
-          "url": "https://github.com/sajal2692/sandboxing-ai-agent-oreilly-course",
-          "stars": 8,
-          "forks": 3,
+          "forks": 2,
           "language": "Python",
-          "createdAt": "2026-09-14T16:22:52Z",
-          "updatedAt": "2026-09-23T23:31:33Z",
-          "starGrowthPerDay": 0
+          "createdAt": "2026-10-05T14:23:26Z",
+          "updatedAt": "2026-10-12T03:28:33Z",
+          "starGrowthPerDay": 0.7786167204387073
         },
         {
-          "owner": "cstar0521",
-          "name": "ai-voice-agent",
-          "description": "A multilingual AI voice agent that automates education loan qualification for study-abroad students. Features intelligent call handling, real-time sentiment analysis, lead qualification, and seamless human handoff. Built with Python FastAPI, React, and Twilio integration.",
-          "url": "https://github.com/cstar0521/ai-voice-agent",
-          "stars": 8,
+          "owner": "FIY-pc",
+          "name": "vibe-logisim",
+          "description": "AI-assisted Logisim workbench for computer organization courses: draw, simulate, and let an AI agent read, wire, debug and explain your circuits. Compatible with Logisim 2.7.1 course packages.",
+          "url": "https://github.com/FIY-pc/vibe-logisim",
+          "stars": 7,
           "forks": 0,
-          "language": "Python",
-          "createdAt": "2026-09-19T10:09:04Z",
-          "updatedAt": "2026-09-19T10:16:00Z",
-          "starGrowthPerDay": 0
+          "language": "JavaScript",
+          "createdAt": "2026-09-26T08:04:05Z",
+          "updatedAt": "2026-10-10T13:37:08Z",
+          "starGrowthPerDay": 0.41250694568289076
+        },
+        {
+          "owner": "lgomezt",
+          "name": "coding-agents-for-data-science",
+          "description": "Student materials for a three-class Coding Agents for Data Science workshop; Class 1 available now.",
+          "url": "https://github.com/lgomezt/coding-agents-for-data-science",
+          "stars": 7,
+          "forks": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-22T00:06:46Z",
+          "updatedAt": "2026-10-05T23:33:48Z",
+          "starGrowthPerDay": 0.32862430158703276
         }
       ]
     },
@@ -747,48 +747,48 @@
           "name": "claude-code-best-practice",
           "description": "from vibe coding to agentic engineering - practice makes claude perfect",
           "url": "https://github.com/shanraisshan/claude-code-best-practice",
-          "stars": 67426,
-          "forks": 6730,
+          "stars": 67479,
+          "forks": 6731,
           "language": "HTML",
           "createdAt": "2025-10-31T14:15:28Z",
-          "updatedAt": "2026-10-12T06:46:15Z",
-          "starGrowthPerDay": 61.59424505908784
+          "updatedAt": "2026-10-13T06:46:47Z",
+          "starGrowthPerDay": 52.02498849086872
         },
         {
           "owner": "liyupi",
           "name": "ai-guide",
-          "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
+          "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指���，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
           "url": "https://github.com/liyupi/ai-guide",
-          "stars": 21016,
-          "forks": 2312,
+          "stars": 21065,
+          "forks": 2315,
           "language": "JavaScript",
           "createdAt": "2025-02-13T05:47:46Z",
           "updatedAt": "2026-09-28T03:09:27Z",
-          "starGrowthPerDay": 36.75785592235887
+          "starGrowthPerDay": 48.09857426514278
         },
         {
           "owner": "datawhalechina",
           "name": "easy-vibe",
           "description": "💻  vibe coding 101｜The first course for AI-native product builders.",
           "url": "https://github.com/datawhalechina/easy-vibe",
-          "stars": 19684,
-          "forks": 1881,
+          "stars": 19710,
+          "forks": 1882,
           "language": "JavaScript",
           "createdAt": "2025-12-28T16:45:28Z",
           "updatedAt": "2026-08-25T01:50:10Z",
-          "starGrowthPerDay": 10.928011220160746
+          "starGrowthPerDay": 25.521692467218617
         },
         {
           "owner": "tradecatlabs",
           "name": "vibe-coding-cn",
           "description": "Vibe Coding 从入门到精通教程｜AI 结对编程工作流｜Prompt、Skill、Workflow、上下文管理、codex实战指南",
           "url": "https://github.com/tradecatlabs/vibe-coding-cn",
-          "stars": 17460,
-          "forks": 1760,
+          "stars": 17506,
+          "forks": 1764,
           "language": "Python",
           "createdAt": "2025-11-23T01:52:29Z",
-          "updatedAt": "2026-10-12T05:36:11Z",
-          "starGrowthPerDay": 32.78403366048224
+          "updatedAt": "2026-10-12T17:17:15Z",
+          "starGrowthPerDay": 45.153763595848325
         },
         {
           "owner": "coleam00",
@@ -796,71 +796,71 @@
           "description": "Context engineering is the new vibe coding - it's the way to actually make AI coding assistants work. Claude Code is the best for this so that's what this repo is centered around, but you can apply this strategy with any AI coding assistant!",
           "url": "https://github.com/coleam00/context-engineering-intro",
           "stars": 13887,
-          "forks": 2718,
+          "forks": 2719,
           "language": "Python",
           "createdAt": "2025-07-02T11:54:47Z",
           "updatedAt": "2026-03-16T12:13:59Z",
-          "starGrowthPerDay": 4.967277827345794
+          "starGrowthPerDay": 0
         },
         {
           "owner": "zai-org",
           "name": "GLM-5",
           "description": "GLM-5: From Vibe Coding to Agentic Engineering",
           "url": "https://github.com/zai-org/GLM-5",
-          "stars": 7314,
-          "forks": 977,
+          "stars": 7315,
+          "forks": 978,
           "language": null,
           "createdAt": "2026-02-09T08:17:02Z",
           "updatedAt": "2026-09-24T10:28:33Z",
-          "starGrowthPerDay": 4.967277827345794
+          "starGrowthPerDay": 0.9816035564314853
         },
         {
           "owner": "datawhalechina",
           "name": "vibe-vibe",
           "description": "AI for All: The First Systematic Vibe Coding Tutorial | From Zero to Full-Stack, Bring Your Ideas to Life | Live at: www.vibevibe.cn   ；全民AI学习第一课，首个系统化 Vibe Coding 开源教程 | 零基础到全栈实战，让人人都能借助 AI 实现自己的想法与创意 | 在线地址：www.vibevibe.cn",
           "url": "https://github.com/datawhalechina/vibe-vibe",
-          "stars": 6126,
+          "stars": 6135,
           "forks": 493,
           "language": "Dockerfile",
           "createdAt": "2025-11-28T10:30:29Z",
           "updatedAt": "2026-04-30T11:49:58Z",
-          "starGrowthPerDay": 4.967277827345794
+          "starGrowthPerDay": 8.834432007883368
         },
         {
           "owner": "cloudflare",
           "name": "vibesdk",
           "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack ",
           "url": "https://github.com/cloudflare/vibesdk",
-          "stars": 5400,
-          "forks": 1273,
+          "stars": 5402,
+          "forks": 1276,
           "language": "TypeScript",
           "createdAt": "2025-08-25T15:07:31Z",
           "updatedAt": "2026-09-22T10:49:08Z",
-          "starGrowthPerDay": 0
+          "starGrowthPerDay": 1.9632071128629707
         },
         {
           "owner": "filipecalegario",
           "name": "awesome-vibe-coding",
           "description": "A curated list of vibe coding references, collaborating with AI to write code.",
           "url": "https://github.com/filipecalegario/awesome-vibe-coding",
-          "stars": 5319,
-          "forks": 730,
+          "stars": 5323,
+          "forks": 736,
           "language": null,
           "createdAt": "2025-03-13T17:46:56Z",
           "updatedAt": "2026-04-16T01:34:11Z",
-          "starGrowthPerDay": 3.973822261876635
+          "starGrowthPerDay": 3.9264142257259413
         },
         {
           "owner": "tiann",
           "name": "hapi",
           "description": "App for Codex / Claude Code / Pi / OpenCode / Kimi Code / Grok Build, vibe coding anytime, anywhere",
           "url": "https://github.com/tiann/hapi",
-          "stars": 5215,
-          "forks": 597,
+          "stars": 5221,
+          "forks": 602,
           "language": "TypeScript",
           "createdAt": "2025-12-24T10:44:41Z",
-          "updatedAt": "2026-10-06T14:36:35Z",
-          "starGrowthPerDay": 1.9869111309383174
+          "updatedAt": "2026-10-13T00:20:03Z",
+          "starGrowthPerDay": 5.889621338588912
         }
       ],
       "trending": [
@@ -869,48 +869,24 @@
           "name": "Win-box",
           "description": "一款纯Vibe coding移植自手机Tvbox/影视仓的Windows版TVbox",
           "url": "https://github.com/yagami-hue/Win-box",
-          "stars": 40,
-          "forks": 4,
+          "stars": 69,
+          "forks": 12,
           "language": "TypeScript",
           "createdAt": "2026-09-17T05:34:54Z",
-          "updatedAt": "2026-10-11T16:58:44Z",
-          "starGrowthPerDay": 13.908130360022808
-        },
-        {
-          "owner": "alchaincyf",
-          "name": "3d-vibe-coding-handbook",
-          "description": "《3D Vibe Coding 手册》配套仓库：书的 HTML 版、demo 源码、工具脚本与资源包索引",
-          "url": "https://github.com/alchaincyf/3d-vibe-coding-handbook",
-          "stars": 274,
-          "forks": 44,
-          "language": "HTML",
-          "createdAt": "2026-09-13T04:01:06Z",
-          "updatedAt": "2026-09-15T06:52:48Z",
-          "starGrowthPerDay": 0
-        },
-        {
-          "owner": "pliablepixels",
-          "name": "gap-trap",
-          "description": "Turns vibe coding into high quality code. Sets up rules and gates in your repo so AI-written code stays correct without you reviewing every line.",
-          "url": "https://github.com/pliablepixels/gap-trap",
-          "stars": 181,
-          "forks": 9,
-          "language": "JavaScript",
-          "createdAt": "2026-09-13T20:29:08Z",
-          "updatedAt": "2026-10-02T17:21:11Z",
-          "starGrowthPerDay": 0
+          "updatedAt": "2026-10-13T00:19:27Z",
+          "starGrowthPerDay": 28.46599409469226
         },
         {
           "owner": "daoyi2026",
           "name": "vibe-coding-zero-to-ship",
           "description": "A beginner foundation skill for AI coding agents — from product idea, data and Git to security, deployment and launch.",
           "url": "https://github.com/daoyi2026/vibe-coding-zero-to-ship",
-          "stars": 27,
+          "stars": 34,
           "forks": 0,
           "language": "JavaScript",
           "createdAt": "2026-09-30T11:35:39Z",
-          "updatedAt": "2026-10-11T07:17:57Z",
-          "starGrowthPerDay": 4.96718941429386
+          "updatedAt": "2026-10-12T08:56:19Z",
+          "starGrowthPerDay": 6.8711020228567525
         },
         {
           "owner": "RectangleStory",
@@ -945,8 +921,8 @@
           "forks": 6,
           "language": "JavaScript",
           "createdAt": "2026-09-28T03:19:36Z",
-          "updatedAt": "2026-10-12T03:47:10Z",
-          "starGrowthPerDay": 0.993437882858772
+          "updatedAt": "2026-10-13T04:59:00Z",
+          "starGrowthPerDay": 0
         }
       ]
     },
@@ -957,91 +933,91 @@
           "name": "freeCodeCamp",
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-          "stars": 456908,
-          "forks": 49044,
+          "stars": 456968,
+          "forks": 49068,
           "language": "TypeScript",
           "createdAt": "2014-12-24T17:49:19Z",
-          "updatedAt": "2026-10-12T06:04:27Z",
-          "starGrowthPerDay": 61.59140589248135
+          "updatedAt": "2026-10-13T07:15:14Z",
+          "starGrowthPerDay": 58.892824443285015
         },
         {
           "owner": "EbookFoundation",
           "name": "free-programming-books",
           "description": ":books: Freely available programming books",
           "url": "https://github.com/EbookFoundation/free-programming-books",
-          "stars": 398793,
-          "forks": 66927,
+          "stars": 398906,
+          "forks": 66931,
           "language": "Python",
           "createdAt": "2013-10-11T06:50:37Z",
-          "updatedAt": "2026-10-09T22:57:13Z",
-          "starGrowthPerDay": 76.492552479372
+          "updatedAt": "2026-10-12T16:52:07Z",
+          "starGrowthPerDay": 110.91481936818677
         },
         {
           "owner": "TheAlgorithms",
           "name": "Python",
           "description": "All Algorithms implemented in Python",
           "url": "https://github.com/TheAlgorithms/Python",
-          "stars": 225185,
-          "forks": 51178,
+          "stars": 225210,
+          "forks": 51184,
           "language": "Python",
           "createdAt": "2016-07-16T09:44:01Z",
           "updatedAt": "2026-10-12T06:46:23Z",
-          "starGrowthPerDay": 24.835244311484413
+          "starGrowthPerDay": 24.538676851368756
         },
         {
           "owner": "getify",
           "name": "You-Dont-Know-JS",
           "description": "A book series (2 published editions) on the JS language.",
           "url": "https://github.com/getify/You-Dont-Know-JS",
-          "stars": 184817,
-          "forks": 33387,
+          "stars": 184824,
+          "forks": 33384,
           "language": null,
           "createdAt": "2013-11-16T02:37:24Z",
           "updatedAt": "2026-02-15T04:36:44Z",
-          "starGrowthPerDay": 9.934097724593766
+          "starGrowthPerDay": 6.8708294403272046
         },
         {
           "owner": "Chalarangelo",
           "name": "30-seconds-of-code",
           "description": "Coding articles to level up your development skills",
           "url": "https://github.com/Chalarangelo/30-seconds-of-code",
-          "stars": 129169,
-          "forks": 12491,
+          "stars": 129181,
+          "forks": 12493,
           "language": "JavaScript",
           "createdAt": "2017-11-29T17:35:03Z",
           "updatedAt": "2026-10-02T01:17:53Z",
-          "starGrowthPerDay": 8.940687849336165
+          "starGrowthPerDay": 11.778564754846636
         },
         {
           "owner": "microsoft",
           "name": "Web-Dev-For-Beginners",
           "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
           "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
-          "stars": 96937,
-          "forks": 16024,
+          "stars": 96943,
+          "forks": 16025,
           "language": "JavaScript",
           "createdAt": "2020-11-10T02:44:00Z",
           "updatedAt": "2026-10-11T20:26:52Z",
-          "starGrowthPerDay": 4.967048805186758
+          "starGrowthPerDay": 5.889282377423318
         },
         {
           "owner": "THU-MAIC",
           "name": "OpenMAIC",
           "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
           "url": "https://github.com/THU-MAIC/OpenMAIC",
-          "stars": 40439,
-          "forks": 6266,
+          "stars": 40582,
+          "forks": 6278,
           "language": "TypeScript",
           "createdAt": "2026-03-11T10:13:16Z",
-          "updatedAt": "2026-10-12T05:35:58Z",
-          "starGrowthPerDay": 92.38710777647371
+          "updatedAt": "2026-10-13T07:20:00Z",
+          "starGrowthPerDay": 140.36122999525574
         },
         {
           "owner": "FreeCodeCampChina",
           "name": "freecodecamp.cn",
           "description": "FCC China open source codebase and curriculum. Learn to code and help nonprofits.",
           "url": "https://github.com/FreeCodeCampChina/freecodecamp.cn",
-          "stars": 37786,
+          "stars": 37785,
           "forks": 1417,
           "language": "CSS",
           "createdAt": "2016-09-30T03:13:43Z",
@@ -1053,86 +1029,62 @@
           "name": "comprehensive-rust",
           "description": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust.",
           "url": "https://github.com/google/comprehensive-rust",
-          "stars": 33418,
-          "forks": 2083,
+          "stars": 33424,
+          "forks": 2082,
           "language": "Rust",
           "createdAt": "2022-12-21T15:17:24Z",
           "updatedAt": "2026-10-06T23:32:22Z",
-          "starGrowthPerDay": 3.9736390441494067
+          "starGrowthPerDay": 5.889282377423318
         },
         {
           "owner": "TheAlgorithms",
           "name": "C",
           "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
           "url": "https://github.com/TheAlgorithms/C",
-          "stars": 22522,
-          "forks": 4779,
+          "stars": 22529,
+          "forks": 4778,
           "language": "C",
           "createdAt": "2016-07-16T10:17:03Z",
           "updatedAt": "2024-08-07T21:56:16Z",
-          "starGrowthPerDay": 3.9736390441494067
+          "starGrowthPerDay": 6.8708294403272046
         }
       ],
       "trending": [
         {
-          "owner": "TE4TURE",
-          "name": "terminal-vocab-drill",
-          "description": "VTC 2026: Simple Terminal Vocabulary Trainer for Fast Language Learning",
-          "url": "https://github.com/TE4TURE/terminal-vocab-drill",
-          "stars": 53,
-          "forks": 0,
-          "language": "HTML",
-          "createdAt": "2026-09-21T22:50:05Z",
-          "updatedAt": "2026-10-12T06:54:19Z",
-          "starGrowthPerDay": 2.606116290976866
+          "owner": "s4ntrx",
+          "name": "S4ntrx-Bot",
+          "description": "The project is a multi-user cybersecurity education chatbot built with Flask, aimed at a school/classroom project.",
+          "url": "https://github.com/s4ntrx/S4ntrx-Bot",
+          "stars": 131,
+          "forks": 1,
+          "language": "Python",
+          "createdAt": "2026-09-15T20:05:34Z",
+          "updatedAt": "2026-09-27T11:55:21Z",
+          "starGrowthPerDay": 0.9815243937212431
         },
         {
-          "owner": "PetruBoss",
-          "name": "12-Keys-Drill",
-          "description": "Best Open Source Music Theory Practice Tool for All 12 Keys 2026",
-          "url": "https://github.com/PetruBoss/12-Keys-Drill",
-          "stars": 53,
+          "owner": "Stop85",
+          "name": "Basis-Level-Explorer",
+          "description": "BasCAT 2026: Interactive Computer Architecture Trainer for Students and Educators",
+          "url": "https://github.com/Stop85/Basis-Level-Explorer",
+          "stars": 56,
           "forks": 0,
           "language": "HTML",
-          "createdAt": "2026-09-21T22:36:41Z",
-          "updatedAt": "2026-10-12T00:19:51Z",
-          "starGrowthPerDay": 2.604924348373797
-        },
-        {
-          "owner": "henryyu333",
-          "name": "assignment-check",
-          "description": "提交前按老师要求逐条检查作业的开源 Agent Skill · Pre-submit assignment checker for briefs, rubrics, evidence, citations, code and data.",
-          "url": "https://github.com/henryyu333/assignment-check",
-          "stars": 53,
-          "forks": 0,
-          "language": null,
-          "createdAt": "2026-09-21T03:13:46Z",
-          "updatedAt": "2026-09-22T16:24:17Z",
-          "starGrowthPerDay": 2.5054764360004116
+          "createdAt": "2026-09-21T20:53:18Z",
+          "updatedAt": "2026-10-09T20:46:01Z",
+          "starGrowthPerDay": 2.61249711070395
         },
         {
           "owner": "itsAalaa7",
           "name": "adhd-study-coach",
           "description": "ADHD-friendly study companion agent for Claude Code: spaced repetition, small-chunk teaching, Feynman reflection",
           "url": "https://github.com/itsAalaa7/adhd-study-coach",
-          "stars": 79,
+          "stars": 80,
           "forks": 2,
           "language": null,
           "createdAt": "2026-09-26T15:24:36Z",
           "updatedAt": "2026-09-27T00:35:03Z",
-          "starGrowthPerDay": 0.993389133288677
-        },
-        {
-          "owner": "s4ntrx",
-          "name": "S4ntrx-Bot",
-          "description": "The project is a multi-user cybersecurity education chatbot built with Flask, aimed at a school/classroom project.",
-          "url": "https://github.com/s4ntrx/S4ntrx-Bot",
-          "stars": 130,
-          "forks": 1,
-          "language": "Python",
-          "createdAt": "2026-09-15T20:05:34Z",
-          "updatedAt": "2026-09-27T11:55:21Z",
-          "starGrowthPerDay": 0
+          "starGrowthPerDay": 0.9815243937212431
         },
         {
           "owner": "shadyyyyyyyyymohamed2008",
@@ -1143,7 +1095,7 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-22T21:06:29Z",
-          "updatedAt": "2026-10-12T06:42:35Z",
+          "updatedAt": "2026-10-13T04:19:10Z",
           "starGrowthPerDay": 0
         },
         {
@@ -1155,7 +1107,7 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-22T21:15:27Z",
-          "updatedAt": "2026-10-12T03:58:50Z",
+          "updatedAt": "2026-10-13T02:23:16Z",
           "starGrowthPerDay": 0
         },
         {
@@ -1167,7 +1119,7 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-22T21:30:17Z",
-          "updatedAt": "2026-10-12T01:00:01Z",
+          "updatedAt": "2026-10-13T00:11:04Z",
           "starGrowthPerDay": 0
         },
         {
@@ -1179,7 +1131,7 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-21T21:18:54Z",
-          "updatedAt": "2026-10-12T06:41:43Z",
+          "updatedAt": "2026-10-13T04:16:34Z",
           "starGrowthPerDay": 0
         },
         {
@@ -1191,7 +1143,31 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-21T21:19:20Z",
-          "updatedAt": "2026-10-12T01:57:47Z",
+          "updatedAt": "2026-10-13T01:03:30Z",
+          "starGrowthPerDay": 0
+        },
+        {
+          "owner": "TE4TURE",
+          "name": "terminal-vocab-drill",
+          "description": "VTC 2026: Simple Terminal Vocabulary Trainer for Fast Language Learning",
+          "url": "https://github.com/TE4TURE/terminal-vocab-drill",
+          "stars": 53,
+          "forks": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-21T22:50:05Z",
+          "updatedAt": "2026-10-13T05:15:11Z",
+          "starGrowthPerDay": 0
+        },
+        {
+          "owner": "PetruBoss",
+          "name": "12-Keys-Drill",
+          "description": "Best Open Source Music Theory Practice Tool for All 12 Keys 2026",
+          "url": "https://github.com/PetruBoss/12-Keys-Drill",
+          "stars": 53,
+          "forks": 0,
+          "language": "HTML",
+          "createdAt": "2026-09-21T22:36:41Z",
+          "updatedAt": "2026-10-13T00:22:05Z",
           "starGrowthPerDay": 0
         }
       ]
@@ -1203,12 +1179,12 @@
           "name": "hackclub",
           "description": "🌎 Hack Club is a worldwide community of high school hackers. We make things. We help one another. We have fun.",
           "url": "https://github.com/hackclub/hackclub",
-          "stars": 2628,
-          "forks": 726,
+          "stars": 2629,
+          "forks": 727,
           "language": "JavaScript",
           "createdAt": "2015-04-10T18:28:39Z",
           "updatedAt": "2026-09-08T02:47:21Z",
-          "starGrowthPerDay": 0
+          "starGrowthPerDay": 0.9814846443376259
         },
         {
           "owner": "kjaisingh",
@@ -1227,7 +1203,7 @@
           "name": "CyberSecurity",
           "description": "A curriculum for a high school cyber security course.",
           "url": "https://github.com/DerekBabb/CyberSecurity",
-          "stars": 809,
+          "stars": 808,
           "forks": 178,
           "language": "Java",
           "createdAt": "2017-07-24T16:16:33Z",
@@ -1244,19 +1220,19 @@
           "language": "TypeScript",
           "createdAt": "2026-07-04T01:47:38Z",
           "updatedAt": "2026-07-04T10:14:11Z",
-          "starGrowthPerDay": 1.9867183737716752
+          "starGrowthPerDay": 0
         },
         {
           "owner": "24kchengYe",
           "name": "human-skill-tree",
           "description": "🌳 AI-Powered Skill Tree for Lifelong Human Learning. 30+ skills from K-12 to career & social intelligence, built on cognitive science. | 人类养成记：AI 驱动的终身学习技能树",
           "url": "https://github.com/24kchengYe/human-skill-tree",
-          "stars": 569,
+          "stars": 572,
           "forks": 29,
           "language": "TypeScript",
           "createdAt": "2026-03-07T19:08:46Z",
           "updatedAt": "2026-03-25T05:22:57Z",
-          "starGrowthPerDay": 0.9933591868858376
+          "starGrowthPerDay": 2.944453933012878
         },
         {
           "owner": "anthropics",
@@ -1264,7 +1240,7 @@
           "description": "Skills and eval rubrics for K-12 teachers, co-developed with Learning Commons",
           "url": "https://github.com/anthropics/k12-teacher-skills",
           "stars": 562,
-          "forks": 102,
+          "forks": 103,
           "language": "Python",
           "createdAt": "2026-07-10T23:00:03Z",
           "updatedAt": "2026-09-01T21:15:50Z",
@@ -1299,12 +1275,12 @@
           "name": "K12-KGraph",
           "description": "[NeurIPS 2026] A curriculum-aligned knowledge graph, benchmark, and multimodal training dataset for educational LLMs.",
           "url": "https://github.com/haolpku/K12-KGraph",
-          "stars": 405,
+          "stars": 408,
           "forks": 66,
           "language": "Python",
           "createdAt": "2026-03-31T15:31:05Z",
           "updatedAt": "2026-09-28T14:59:04Z",
-          "starGrowthPerDay": 2.980077560657513
+          "starGrowthPerDay": 2.944453933012878
         },
         {
           "owner": "uccser",
@@ -1316,7 +1292,7 @@
           "language": "JavaScript",
           "createdAt": "2015-04-21T23:00:26Z",
           "updatedAt": "2026-07-06T08:14:37Z",
-          "starGrowthPerDay": 0.9933591868858376
+          "starGrowthPerDay": 0
         }
       ],
       "trending": [
@@ -1329,7 +1305,7 @@
           "forks": 0,
           "language": "HTML",
           "createdAt": "2026-09-21T20:48:06Z",
-          "updatedAt": "2026-10-12T00:20:55Z",
+          "updatedAt": "2026-10-13T00:24:12Z",
           "starGrowthPerDay": 0
         },
         {
@@ -1353,56 +1329,56 @@
           "name": "Open-Generative-AI",
           "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
           "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-          "stars": 30108,
-          "forks": 5535,
+          "stars": 30165,
+          "forks": 5550,
           "language": "JavaScript",
           "createdAt": "2023-05-09T14:12:37Z",
-          "updatedAt": "2026-10-11T11:18:40Z",
-          "starGrowthPerDay": 69.53079828656706
+          "updatedAt": "2026-10-12T18:55:03Z",
+          "starGrowthPerDay": 55.941232535701644
         },
         {
           "owner": "HBAI-Ltd",
           "name": "Toonflow-app",
           "description": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.",
           "url": "https://github.com/HBAI-Ltd/Toonflow-app",
-          "stars": 17302,
-          "forks": 3071,
+          "stars": 17420,
+          "forks": 3089,
           "language": "TypeScript",
           "createdAt": "2026-01-29T10:25:45Z",
-          "updatedAt": "2026-10-10T07:42:23Z",
-          "starGrowthPerDay": 151.97445911206802
+          "updatedAt": "2026-10-13T06:53:45Z",
+          "starGrowthPerDay": 115.80816560022446
         },
         {
           "owner": "greensock",
           "name": "gsap-skills",
           "description": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.",
           "url": "https://github.com/greensock/gsap-skills",
-          "stars": 16226,
-          "forks": 954,
+          "stars": 16295,
+          "forks": 958,
           "language": null,
           "createdAt": "2026-03-04T17:22:35Z",
           "updatedAt": "2026-07-29T17:36:08Z",
-          "starGrowthPerDay": 66.55090693142847
+          "starGrowthPerDay": 67.71833412216515
         },
         {
           "owner": "duixcom",
           "name": "Duix-Avatar",
           "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
           "url": "https://github.com/duixcom/Duix-Avatar",
-          "stars": 15856,
-          "forks": 2703,
+          "stars": 15885,
+          "forks": 2707,
           "language": "C",
           "createdAt": "2024-12-24T03:00:26Z",
           "updatedAt": "2026-04-21T07:06:36Z",
-          "starGrowthPerDay": 20.85923948597012
+          "starGrowthPerDay": 28.461328833953466
         },
         {
           "owner": "HumanAIGC",
           "name": "AnimateAnyone",
           "description": "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation",
           "url": "https://github.com/HumanAIGC/AnimateAnyone",
-          "stars": 14777,
-          "forks": 1006,
+          "stars": 14776,
+          "forks": 1007,
           "language": null,
           "createdAt": "2023-11-28T07:55:34Z",
           "updatedAt": "2025-09-20T13:56:23Z",
@@ -1413,60 +1389,60 @@
           "name": "waoowaoo",
           "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
           "url": "https://github.com/waooAI/waoowaoo",
-          "stars": 14525,
-          "forks": 3170,
+          "stars": 14548,
+          "forks": 3171,
           "language": "TypeScript",
           "createdAt": "2026-01-22T12:09:36Z",
           "updatedAt": "2026-09-21T10:39:25Z",
-          "starGrowthPerDay": 35.75869626166306
+          "starGrowthPerDay": 22.572778040721715
         },
         {
           "owner": "OpenTalker",
           "name": "SadTalker",
           "description": "[CVPR 2023] SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
           "url": "https://github.com/OpenTalker/SadTalker",
-          "stars": 14125,
-          "forks": 2696,
+          "stars": 14128,
+          "forks": 2697,
           "language": "Python",
           "createdAt": "2022-11-23T02:18:18Z",
           "updatedAt": "2024-06-26T12:51:53Z",
-          "starGrowthPerDay": 2.9798913551385886
+          "starGrowthPerDay": 2.944275396615876
         },
         {
           "owner": "zai-org",
           "name": "CogVideo",
           "description": "text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023)",
           "url": "https://github.com/zai-org/CogVideo",
-          "stars": 13068,
-          "forks": 1368,
+          "stars": 13073,
+          "forks": 1371,
           "language": "Python",
           "createdAt": "2022-05-29T06:46:18Z",
           "updatedAt": "2025-11-04T11:19:04Z",
-          "starGrowthPerDay": 2.9798913551385886
+          "starGrowthPerDay": 4.90712566102646
         },
         {
           "owner": "HKUDS",
           "name": "ViMax",
           "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
           "url": "https://github.com/HKUDS/ViMax",
-          "stars": 12633,
-          "forks": 1904,
+          "stars": 12647,
+          "forks": 1907,
           "language": "Python",
           "createdAt": "2025-03-30T13:36:35Z",
           "updatedAt": "2026-09-30T14:35:08Z",
-          "starGrowthPerDay": 18.87264524921106
+          "starGrowthPerDay": 13.739951850874087
         },
         {
           "owner": "Tencent-Hunyuan",
           "name": "HunyuanVideo",
           "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
           "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
-          "stars": 12614,
+          "stars": 12617,
           "forks": 1349,
           "language": "Python",
           "createdAt": "2024-11-28T08:38:31Z",
           "updatedAt": "2026-10-08T08:57:37Z",
-          "starGrowthPerDay": 2.9798913551385886
+          "starGrowthPerDay": 2.944275363171595
         }
       ],
       "trending": [
@@ -1475,366 +1451,366 @@
           "name": "reelmimic",
           "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
           "url": "https://github.com/edenfunf/reelmimic",
-          "stars": 2371,
-          "forks": 233,
+          "stars": 2489,
+          "forks": 259,
           "language": "JavaScript",
           "createdAt": "2026-09-28T19:14:59Z",
-          "updatedAt": "2026-10-11T09:08:57Z",
-          "starGrowthPerDay": 191.69896971115583
-        },
-        {
-          "owner": "mrsarac",
-          "name": "ff-tracking",
-          "description": "A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.",
-          "url": "https://github.com/mrsarac/ff-tracking",
-          "stars": 304,
-          "forks": 19,
-          "language": "Rust",
-          "createdAt": "2026-10-09T11:12:47Z",
-          "updatedAt": "2026-10-11T22:05:26Z",
-          "starGrowthPerDay": 70.52138263985525
-        },
-        {
-          "owner": "letorig",
-          "name": "video-generator-client",
-          "description": "Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI",
-          "url": "https://github.com/letorig/video-generator-client",
-          "stars": 553,
-          "forks": 89,
-          "language": "Python",
-          "createdAt": "2026-09-14T17:46:01Z",
-          "updatedAt": "2026-10-11T18:30:23Z",
-          "starGrowthPerDay": 20.074005821933927
-        },
-        {
-          "owner": "czg86389-hub",
-          "name": "muse2api",
-          "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
-          "url": "https://github.com/czg86389-hub/muse2api",
-          "stars": 360,
-          "forks": 100,
-          "language": "Python",
-          "createdAt": "2026-09-25T14:22:55Z",
-          "updatedAt": "2026-10-11T02:48:52Z",
-          "starGrowthPerDay": 17.87866038756894
-        },
-        {
-          "owner": "vincentsch",
-          "name": "explainroo",
-          "description": "Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.",
-          "url": "https://github.com/vincentsch/explainroo",
-          "stars": 536,
-          "forks": 29,
-          "language": "JavaScript",
-          "createdAt": "2026-09-25T15:09:54Z",
-          "updatedAt": "2026-10-04T10:22:20Z",
-          "starGrowthPerDay": 9.932589104204965
-        },
-        {
-          "owner": "guanmo-ai",
-          "name": "awesome-ai-motion",
-          "description": "发现惊艳动效、创意视频与交互艺术，探索背后的源码、提示词与制作过程。Curated motion design, creative video & interactive art — with source code, prompts & making-of resources.",
-          "url": "https://github.com/guanmo-ai/awesome-ai-motion",
-          "stars": 302,
-          "forks": 43,
-          "language": "JavaScript",
-          "createdAt": "2026-09-27T08:53:43Z",
-          "updatedAt": "2026-10-11T15:24:36Z",
-          "starGrowthPerDay": 10.925848014625462
+          "updatedAt": "2026-10-12T11:13:49Z",
+          "starGrowthPerDay": 115.80288815483502
         },
         {
           "owner": "Tejashmakwana",
           "name": "motionmaxxing",
           "description": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
           "url": "https://github.com/Tejashmakwana/motionmaxxing",
-          "stars": 132,
-          "forks": 14,
+          "stars": 304,
+          "forks": 32,
           "language": "JavaScript",
           "createdAt": "2026-10-06T18:18:49Z",
           "updatedAt": "2026-10-06T18:20:43Z",
-          "starGrowthPerDay": 25.82473167093291
+          "starGrowthPerDay": 168.7974301917934
         },
         {
-          "owner": "AlibabaResearch",
-          "name": "SparkDiffusion",
-          "description": "SparkDiffusion: Accelerating DiT video generation by 265× via joint Sparsity, Distillation, Quantization, etc.",
-          "url": "https://github.com/AlibabaResearch/SparkDiffusion",
-          "stars": 548,
-          "forks": 76,
+          "owner": "czg86389-hub",
+          "name": "muse2api",
+          "description": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
+          "url": "https://github.com/czg86389-hub/muse2api",
+          "stars": 399,
+          "forks": 119,
           "language": "Python",
-          "createdAt": "2026-09-18T06:02:15Z",
-          "updatedAt": "2026-10-09T04:16:39Z",
-          "starGrowthPerDay": 3.973035641681986
+          "createdAt": "2026-09-25T14:22:55Z",
+          "updatedAt": "2026-10-13T04:29:04Z",
+          "starGrowthPerDay": 38.27383591558107
+        },
+        {
+          "owner": "mrsarac",
+          "name": "ff-tracking",
+          "description": "A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.",
+          "url": "https://github.com/mrsarac/ff-tracking",
+          "stars": 347,
+          "forks": 21,
+          "language": "Rust",
+          "createdAt": "2026-10-09T11:12:47Z",
+          "updatedAt": "2026-10-13T07:04:06Z",
+          "starGrowthPerDay": 42.19935754794835
+        },
+        {
+          "owner": "vincentsch",
+          "name": "explainroo",
+          "description": "Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.",
+          "url": "https://github.com/vincentsch/explainroo",
+          "stars": 543,
+          "forks": 30,
+          "language": "JavaScript",
+          "createdAt": "2026-09-25T15:09:54Z",
+          "updatedAt": "2026-10-12T14:13:02Z",
+          "starGrowthPerDay": 6.869662856642756
         },
         {
           "owner": "Zihan-Su",
           "name": "Self_Gradient_Forcing_Plus",
           "description": "Autoregressive video generation with decoupled context-writing and denoising parameters, enabling up to 24-hour generation from 5s training windows.",
           "url": "https://github.com/Zihan-Su/Self_Gradient_Forcing_Plus",
-          "stars": 111,
+          "stars": 137,
           "forks": 8,
           "language": "Python",
           "createdAt": "2026-10-07T15:58:40Z",
-          "updatedAt": "2026-10-09T14:03:05Z",
-          "starGrowthPerDay": 15.892142566727944
+          "updatedAt": "2026-10-12T11:39:20Z",
+          "starGrowthPerDay": 25.515890610387377
         },
         {
-          "owner": "EGSECDA",
-          "name": "vocaloid-style-mv-pipeline",
-          "description": "Production pipeline and Claude Code skill for Vocaloid-style hand-drawn (手書き) lyric music videos: deterministic Canvas2D/WebGL2 animation engine, JIZURA lyric motion, AI illustration, Blender toon 3D, headless rendering to 16:9 and 9:16.",
-          "url": "https://github.com/EGSECDA/vocaloid-style-mv-pipeline",
-          "stars": 108,
-          "forks": 6,
+          "owner": "AlibabaResearch",
+          "name": "SparkDiffusion",
+          "description": "SparkDiffusion: Accelerating DiT video generation by 265× via joint Sparsity, Distillation, Quantization, etc.",
+          "url": "https://github.com/AlibabaResearch/SparkDiffusion",
+          "stars": 552,
+          "forks": 76,
+          "language": "Python",
+          "createdAt": "2026-09-18T06:02:15Z",
+          "updatedAt": "2026-10-09T04:16:39Z",
+          "starGrowthPerDay": 3.925521632367289
+        },
+        {
+          "owner": "guanmo-ai",
+          "name": "awesome-ai-motion",
+          "description": "发现惊艳动效、创意视频与交互艺术，探索背后的源码、提示词与制作过程。Curated motion design, creative video & interactive art — with source code, prompts & making-of resources.",
+          "url": "https://github.com/guanmo-ai/awesome-ai-motion",
+          "stars": 308,
+          "forks": 43,
           "language": "JavaScript",
-          "createdAt": "2026-10-04T10:23:26Z",
-          "updatedAt": "2026-10-04T11:38:15Z",
-          "starGrowthPerDay": 12.912365835466455
+          "createdAt": "2026-09-27T08:53:43Z",
+          "updatedAt": "2026-10-12T16:17:23Z",
+          "starGrowthPerDay": 5.8882824485509335
+        },
+        {
+          "owner": "ApparitionStream",
+          "name": "CapCut-v26",
+          "description": "Professional video editing suite featuring multi-track timeline editing, AI-powered effects, keyframe animation, and optimized 4K rendering tools.",
+          "url": "https://github.com/ApparitionStream/CapCut-v26",
+          "stars": 151,
+          "forks": 1,
+          "language": null,
+          "createdAt": "2026-09-20T14:29:12Z",
+          "updatedAt": "2026-10-09T09:59:12Z",
+          "starGrowthPerDay": 6.651303771421078
+        },
+        {
+          "owner": "drowzeys",
+          "name": "keys-Wasserman-Slate-AI-Studio-powered-by-TensorFold-Mac-DGXSpark",
+          "description": "keys-Wasserman Slate AI Studio powered by TensorFold: an AI film studio for Mac and NVIDIA DGX Spark. Plan a film like a crew (Slate workflow by Sam Wasserman), render Qwen-Image-2.1 images Turbo and MiniMax H3 / FastH3 video with sound on TensorFold.",
+          "url": "https://github.com/drowzeys/keys-Wasserman-Slate-AI-Studio-powered-by-TensorFold-Mac-DGXSpark",
+          "stars": 95,
+          "forks": 9,
+          "language": "Python",
+          "createdAt": "2026-10-04T17:40:44Z",
+          "updatedAt": "2026-10-13T06:59:09Z",
+          "starGrowthPerDay": 11.086077663630528
         }
       ]
     },
     "all": {
       "topStars": [
         {
+          "owner": "public-apis",
+          "name": "public-apis",
+          "description": "A collective list of free APIs",
+          "url": "https://github.com/public-apis/public-apis",
+          "stars": 488121,
+          "forks": 54111,
+          "language": "Python",
+          "createdAt": "2016-03-20T23:49:42Z",
+          "updatedAt": "2026-10-13T04:59:16Z",
+          "starGrowthPerDay": 126.5115058504713
+        },
+        {
           "owner": "freeCodeCamp",
           "name": "freeCodeCamp",
           "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
           "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-          "stars": 456908,
-          "forks": 49044,
+          "stars": 456968,
+          "forks": 49068,
           "language": "TypeScript",
           "createdAt": "2014-12-24T17:49:19Z",
-          "updatedAt": "2026-10-12T06:04:27Z",
-          "starGrowthPerDay": 61.580991954499964
+          "updatedAt": "2026-10-13T07:15:14Z",
+          "starGrowthPerDay": 58.88180989598774
         },
         {
           "owner": "openclaw",
           "name": "openclaw",
-          "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+          "description": "The AI that really does things. Any OS. Any Platform. The lobster way. ���� ",
           "url": "https://github.com/openclaw/openclaw",
-          "stars": 391725,
-          "forks": 82371,
+          "stars": 391820,
+          "forks": 82384,
           "language": "TypeScript",
           "createdAt": "2025-11-24T10:16:47Z",
-          "updatedAt": "2026-10-12T06:54:46Z",
-          "starGrowthPerDay": 69.5269264002419
-        },
-        {
-          "owner": "vinta",
-          "name": "awesome-python",
-          "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-          "url": "https://github.com/vinta/awesome-python",
-          "stars": 326708,
-          "forks": 28933,
-          "language": "Python",
-          "createdAt": "2014-06-27T21:00:06Z",
-          "updatedAt": "2026-10-12T05:58:19Z",
-          "starGrowthPerDay": 249.3036932351531
-        },
-        {
-          "owner": "affaan-m",
-          "name": "ECC",
-          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-          "url": "https://github.com/affaan-m/ECC",
-          "stars": 277391,
-          "forks": 41373,
-          "language": "JavaScript",
-          "createdAt": "2026-01-18T00:51:51Z",
-          "updatedAt": "2026-10-12T06:22:31Z",
-          "starGrowthPerDay": 730.03272720254
+          "updatedAt": "2026-10-13T07:20:12Z",
+          "starGrowthPerDay": 93.22953233531392
         },
         {
           "owner": "NousResearch",
           "name": "hermes-agent",
           "description": "The agent that grows with you",
           "url": "https://github.com/NousResearch/hermes-agent",
-          "stars": 252882,
-          "forks": 54771,
+          "stars": 253242,
+          "forks": 54893,
           "language": "Python",
           "createdAt": "2025-07-22T22:22:28Z",
-          "updatedAt": "2026-10-12T06:39:13Z",
-          "starGrowthPerDay": 272.1482547666611
+          "updatedAt": "2026-10-13T07:17:50Z",
+          "starGrowthPerDay": 353.29085937592646
         },
         {
-          "owner": "torvalds",
-          "name": "linux",
-          "description": "Linux kernel source tree",
-          "url": "https://github.com/torvalds/linux",
-          "stars": 251590,
-          "forks": 67645,
-          "language": "C",
-          "createdAt": "2011-09-04T22:48:12Z",
-          "updatedAt": "2026-10-12T03:05:31Z",
-          "starGrowthPerDay": 106.27687321179833
-        },
-        {
-          "owner": "TheAlgorithms",
-          "name": "Python",
-          "description": "All Algorithms implemented in Python",
-          "url": "https://github.com/TheAlgorithms/Python",
-          "stars": 225185,
-          "forks": 51178,
-          "language": "Python",
-          "createdAt": "2016-07-16T09:44:01Z",
-          "updatedAt": "2026-10-12T06:46:23Z",
-          "starGrowthPerDay": 24.831045142943534
+          "owner": "react",
+          "name": "react",
+          "description": "The library for web and native user interfaces.",
+          "url": "https://github.com/react/react",
+          "stars": 250964,
+          "forks": 51478,
+          "language": "JavaScript",
+          "createdAt": "2013-05-24T16:15:54Z",
+          "updatedAt": "2026-10-13T06:57:34Z",
+          "starGrowthPerDay": 51.325783448173425
         },
         {
           "owner": "anomalyco",
           "name": "opencode",
           "description": "The open source coding agent.",
           "url": "https://github.com/anomalyco/opencode",
-          "stars": 212783,
-          "forks": 28479,
+          "stars": 213023,
+          "forks": 28548,
           "language": "TypeScript",
           "createdAt": "2025-04-30T20:08:00Z",
-          "updatedAt": "2026-10-12T06:06:44Z",
-          "starGrowthPerDay": 178.78352502919344
+          "updatedAt": "2026-10-13T07:17:10Z",
+          "starGrowthPerDay": 235.52723958395097
         },
         {
           "owner": "n8n-io",
           "name": "n8n",
           "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
           "url": "https://github.com/n8n-io/n8n",
-          "stars": 207044,
-          "forks": 61094,
+          "stars": 207177,
+          "forks": 61111,
           "language": "TypeScript",
           "createdAt": "2019-06-22T09:24:21Z",
-          "updatedAt": "2026-10-12T06:52:56Z",
-          "starGrowthPerDay": 97.33769696033866
+          "updatedAt": "2026-10-13T07:18:42Z",
+          "starGrowthPerDay": 130.5213452694395
         },
         {
           "owner": "tensorflow",
           "name": "tensorflow",
           "description": "An Open Source Machine Learning Framework for Everyone",
           "url": "https://github.com/tensorflow/tensorflow",
-          "stars": 200877,
-          "forks": 79201,
+          "stars": 200909,
+          "forks": 79215,
           "language": "C++",
           "createdAt": "2015-11-07T01:19:20Z",
-          "updatedAt": "2026-10-12T06:55:13Z",
-          "starGrowthPerDay": 84.42555348600801
+          "updatedAt": "2026-10-13T07:17:02Z",
+          "starGrowthPerDay": 31.403631944526797
+        },
+        {
+          "owner": "ultraworkers",
+          "name": "claw-code",
+          "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+          "url": "https://github.com/ultraworkers/claw-code",
+          "stars": 194937,
+          "forks": 108050,
+          "language": "Rust",
+          "createdAt": "2026-03-31T08:58:08Z",
+          "updatedAt": "2026-10-13T07:12:25Z",
+          "starGrowthPerDay": 0
+        },
+        {
+          "owner": "microsoft",
+          "name": "vscode",
+          "description": "Visual Studio Code",
+          "url": "https://github.com/microsoft/vscode",
+          "stars": 193649,
+          "forks": 45251,
+          "language": "TypeScript",
+          "createdAt": "2015-09-03T20:23:38Z",
+          "updatedAt": "2026-10-13T06:45:32Z",
+          "starGrowthPerDay": 47.72670128483357
         }
       ],
       "trending": [
-        {
-          "owner": "storytold",
-          "name": "wordcraft",
-          "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-          "url": "https://github.com/storytold/wordcraft",
-          "stars": 6859,
-          "forks": 1909,
-          "language": "Rust",
-          "createdAt": "2026-10-07T08:34:24Z",
-          "updatedAt": "2026-10-12T06:38:05Z",
-          "starGrowthPerDay": 1390.949142102906
-        },
         {
           "owner": "wheresryan22",
           "name": "anatomy",
           "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
           "url": "https://github.com/wheresryan22/anatomy",
-          "stars": 4087,
-          "forks": 322,
+          "stars": 6872,
+          "forks": 495,
           "language": "JavaScript",
           "createdAt": "2026-10-08T10:12:49Z",
-          "updatedAt": "2026-10-12T01:05:12Z",
-          "starGrowthPerDay": 1058.0352420914107
+          "updatedAt": "2026-10-12T22:40:08Z",
+          "starGrowthPerDay": 2733.0503435587757
         },
         {
           "owner": "storytold",
           "name": "gridcraft",
           "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
           "url": "https://github.com/storytold/gridcraft",
-          "stars": 3174,
-          "forks": 1328,
+          "stars": 4008,
+          "forks": 1750,
           "language": "Rust",
           "createdAt": "2026-10-07T05:18:16Z",
-          "updatedAt": "2026-10-12T01:25:48Z",
-          "starGrowthPerDay": 626.3605556149698
+          "updatedAt": "2026-10-13T06:08:31Z",
+          "starGrowthPerDay": 818.4430831339386
+        },
+        {
+          "owner": "liseami",
+          "name": "CCBaga",
+          "description": null,
+          "url": "https://github.com/liseami/CCBaga",
+          "stars": 1814,
+          "forks": 176,
+          "language": "Rust",
+          "createdAt": "2026-10-11T03:47:06Z",
+          "updatedAt": "2026-10-13T02:43:07Z",
+          "starGrowthPerDay": 844.4067243178168
         },
         {
           "owner": "storytold",
-          "name": "cadcraft",
-          "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
-          "url": "https://github.com/storytold/cadcraft",
-          "stars": 2869,
-          "forks": 1321,
+          "name": "deckcraft",
+          "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+          "url": "https://github.com/storytold/deckcraft",
+          "stars": 2690,
+          "forks": 1444,
           "language": "Rust",
-          "createdAt": "2026-10-07T05:22:31Z",
-          "updatedAt": "2026-10-12T00:42:45Z",
-          "starGrowthPerDay": 566.5014769108727
+          "createdAt": "2026-10-07T05:27:21Z",
+          "updatedAt": "2026-10-13T03:56:03Z",
+          "starGrowthPerDay": 442.53350408238475
         },
         {
-          "owner": "nullmoth",
-          "name": "nvidia-macos-driver",
-          "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
-          "url": "https://github.com/nullmoth/nvidia-macos-driver",
-          "stars": 2605,
-          "forks": 237,
+          "owner": "noahdunnagan",
+          "name": "fsearch",
+          "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
+          "url": "https://github.com/noahdunnagan/fsearch",
+          "stars": 1992,
+          "forks": 131,
           "language": "Rust",
-          "createdAt": "2026-10-07T08:13:12Z",
-          "updatedAt": "2026-10-12T06:12:24Z",
-          "starGrowthPerDay": 526.7002216836659
-        },
-        {
-          "owner": "storytold",
-          "name": "craft-launcher",
-          "description": "The Craft App Launcher",
-          "url": "https://github.com/storytold/craft-launcher",
-          "stars": 1375,
-          "forks": 477,
-          "language": "Rust",
-          "createdAt": "2026-10-09T23:21:59Z",
-          "updatedAt": "2026-10-12T06:50:10Z",
-          "starGrowthPerDay": 594.0069112704126
-        },
-        {
-          "owner": "storytold",
-          "name": "soundcraft",
-          "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
-          "url": "https://github.com/storytold/soundcraft",
-          "stars": 1932,
-          "forks": 1120,
-          "language": "Rust",
-          "createdAt": "2026-10-07T08:31:31Z",
-          "updatedAt": "2026-10-12T01:06:08Z",
-          "starGrowthPerDay": 391.63478545319816
-        },
-        {
-          "owner": "HelixDB",
-          "name": "helix-foundry",
-          "description": "Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
-          "url": "https://github.com/HelixDB/helix-foundry",
-          "stars": 1250,
-          "forks": 193,
-          "language": "TypeScript",
-          "createdAt": "2026-10-07T05:10:45Z",
-          "updatedAt": "2026-10-12T06:46:29Z",
-          "starGrowthPerDay": 246.42249694289507
+          "createdAt": "2026-10-08T17:50:33Z",
+          "updatedAt": "2026-10-12T18:33:47Z",
+          "starGrowthPerDay": 436.60037729932833
         },
         {
           "owner": "Fei2411",
           "name": "DeepSeek-Bot",
           "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
           "url": "https://github.com/Fei2411/DeepSeek-Bot",
-          "stars": 1070,
-          "forks": 96,
+          "stars": 1489,
+          "forks": 146,
           "language": "JavaScript",
           "createdAt": "2026-10-07T15:37:36Z",
-          "updatedAt": "2026-10-12T06:09:58Z",
-          "starGrowthPerDay": 230.73889260900833
+          "updatedAt": "2026-10-13T07:07:20Z",
+          "starGrowthPerDay": 411.1842348118948
+        },
+        {
+          "owner": "nullmoth",
+          "name": "nvidia-macos-driver",
+          "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+          "url": "https://github.com/nullmoth/nvidia-macos-driver",
+          "stars": 2808,
+          "forks": 255,
+          "language": "Rust",
+          "createdAt": "2026-10-07T08:13:12Z",
+          "updatedAt": "2026-10-12T23:23:16Z",
+          "starGrowthPerDay": 199.21336435993948
+        },
+        {
+          "owner": "bherbruck",
+          "name": "solidcraft",
+          "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+          "url": "https://github.com/bherbruck/solidcraft",
+          "stars": 1231,
+          "forks": 122,
+          "language": "Rust",
+          "createdAt": "2026-10-07T18:57:48Z",
+          "updatedAt": "2026-10-13T06:54:02Z",
+          "starGrowthPerDay": 223.17611231490443
+        },
+        {
+          "owner": "HelixDB",
+          "name": "helix-foundry",
+          "description": "Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
+          "url": "https://github.com/HelixDB/helix-foundry",
+          "stars": 1348,
+          "forks": 209,
+          "language": "TypeScript",
+          "createdAt": "2026-10-07T05:10:45Z",
+          "updatedAt": "2026-10-13T06:13:06Z",
+          "starGrowthPerDay": 96.17196900135009
         },
         {
           "owner": "pingdotgg",
           "name": "ts-rust",
           "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
           "url": "https://github.com/pingdotgg/ts-rust",
-          "stars": 1071,
-          "forks": 72,
+          "stars": 1132,
+          "forks": 75,
           "language": "Rust",
           "createdAt": "2026-10-07T05:17:07Z",
-          "updatedAt": "2026-10-12T06:50:34Z",
-          "starGrowthPerDay": 211.3189821674557
+          "updatedAt": "2026-10-13T07:08:01Z",
+          "starGrowthPerDay": 59.862143970228125
         }
       ]
     }
